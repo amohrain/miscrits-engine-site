@@ -1,5 +1,5 @@
 {
-  "name": "miscrits-engine-site",
+  "name": "miscrits-engine",
   "homepage": "https://amohrain.github.io/miscrits-engine",
   "private": true,
   "version": "0.0.0",
@@ -8,9 +8,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@base-ui/react": "^1.2.0",

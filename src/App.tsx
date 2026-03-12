@@ -10,7 +10,7 @@ import Testers from "./pages/Testers";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/miscrits-engine">
+    <BrowserRouter>
       <div className="min-h-screen bg-slate-950 text-white flex flex-col">
         <Navbar />
 

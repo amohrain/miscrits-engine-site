@@ -23,7 +23,7 @@ export default function Privacy() {
 
       <h2 className="text-2xl font-semibold mt-8">Contact</h2>
 
-      <p>For privacy questions please contact: your-email@example.com</p>
+      <p>For privacy questions please contact: abhishek181920@gmail.com</p>
     </div>
   );
 }

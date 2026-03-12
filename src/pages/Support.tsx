@@ -5,7 +5,7 @@ export default function Support() {
 
       <p>If you encounter issues with Miscrits Engine, please contact us.</p>
 
-      <p className="text-lg text-emerald-400">your-email@example.com</p>
+      <p className="text-lg text-emerald-400">abhishek181920@gmail.com</p>
 
       <h2 className="text-2xl font-semibold mt-8">When reporting a problem</h2>
 

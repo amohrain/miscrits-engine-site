@@ -34,10 +34,10 @@ export default function Home() {
 
         <div className="mt-10">
           <a
-            href="/miscrits-engine/testers"
+            href="/testers"
             className="bg-cyan-400 text-black px-6 py-3 rounded-md font-semibold hover:bg-cyan-300 transition"
           >
-            Download on Google Play
+            Join Beta Testing
           </a>
         </div>
       </section>
