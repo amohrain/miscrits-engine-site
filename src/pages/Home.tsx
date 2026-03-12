@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import FeatureCard from "../components/FeatureCard";
 import { Activity, ScanText, Sparkles, Cpu, Settings } from "lucide-react";
 
@@ -33,12 +34,12 @@ export default function Home() {
         </p>
 
         <div className="mt-10">
-          <a
-            href="/testers"
+          <Link
+            to="/testers"
             className="bg-cyan-400 text-black px-6 py-3 rounded-md font-semibold hover:bg-cyan-300 transition"
           >
             Join Beta Testing
-          </a>
+          </Link>
         </div>
       </section>
 
