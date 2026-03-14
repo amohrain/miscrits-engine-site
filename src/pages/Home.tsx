@@ -4,7 +4,7 @@ import { Activity, ScanText, Sparkles, Cpu, Settings } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="max-w-6xl mx-auto px-6">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6">
       {/* HERO */}
 
       <section className="py-24 flex flex-col items-center text-center">
@@ -24,11 +24,11 @@ export default function Home() {
 
         {/* Title */}
 
-        <h1 className="text-5xl font-bold text-cyan-400 tracking-wide">
+        <h1 className="text-4xl sm:text-5xl font-bold text-cyan-400 tracking-wide">
           MISCRITS ENGINE
         </h1>
 
-        <p className="mt-6 text-slate-400 max-w-xl">
+        <p className="mt-6 text-slate-400 max-w-xl mx-auto">
           A battle companion for World of Miscrits. Analyze combat data, detect
           damage, and gain insights into abilities in real time.
         </p>
@@ -50,7 +50,7 @@ export default function Home() {
           Engine Modules
         </h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <FeatureCard
             icon={<Activity size={20} />}
             title="Damage Tracking"

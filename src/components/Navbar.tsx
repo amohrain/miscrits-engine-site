@@ -4,7 +4,10 @@ export default function Navbar() {
   return (
     <nav className="border-b border-slate-800 bg-slate-950">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <Link to="/" className="font-semibold text-lg tracking-wide">
+        <Link
+          to="/"
+          className="md:block hidden font-semibold text-lg tracking-wide"
+        >
           MISCRITS ENGINE
         </Link>
 
