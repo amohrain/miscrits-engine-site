@@ -24,7 +24,7 @@ export default function Navbar() {
             Support
           </Link>
 
-          <Link to="/test" className="hover:text-cyan-400">
+          <Link to="/testers" className="hover:text-cyan-400">
             Testing
           </Link>
           <Link to="/walkthrough" className="hover:text-cyan-400">
