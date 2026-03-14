@@ -24,6 +24,9 @@ export default function Navbar() {
           <Link to="/terms" className="hover:text-cyan-400">
             Terms
           </Link>
+          <Link to="/walkthrough" className="hover:text-cyan-400">
+            Walkthrough
+          </Link>
         </div>
       </div>
     </nav>

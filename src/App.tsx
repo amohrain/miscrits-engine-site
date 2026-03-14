@@ -7,6 +7,7 @@ import Privacy from "./pages/Privacy";
 import Support from "./pages/Support";
 import Terms from "./pages/Terms";
 import Testers from "./pages/Testers";
+import Walkthrough from "./pages/Walkthrough";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
             <Route path="/support" element={<Support />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/testers" element={<Testers />} />
+            <Route path="/walkthrough" element={<Walkthrough />} />
           </Routes>
         </main>
 
