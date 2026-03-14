@@ -60,8 +60,7 @@ export default function Testers() {
           </p>
 
           <a
-            // href="https://play.google.com/apps/testing/com.amohrain.miscritsassist2"
-            href="/"
+            href="https://play.google.com/store/apps/details?id=com.amohrain.miscritsengine"
             target="_blank"
             className="inline-block bg-cyan-400 text-black px-6 py-3 rounded-md font-semibold hover:bg-cyan-300 transition"
           >
