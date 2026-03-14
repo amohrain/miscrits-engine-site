@@ -24,11 +24,11 @@ export default function Navbar() {
             Support
           </Link>
 
-          <Link to="/terms" className="hover:text-cyan-400">
-            Terms
+          <Link to="/test" className="hover:text-cyan-400">
+            Testing
           </Link>
           <Link to="/walkthrough" className="hover:text-cyan-400">
-            Walkthrough
+            Guide
           </Link>
         </div>
       </div>

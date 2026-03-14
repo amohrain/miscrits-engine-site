@@ -66,6 +66,12 @@ export default function Testers() {
           >
             Install Test App
           </a>
+          {/* Important note */}
+
+          <p className="text-cyan-400 text-sm mt-6 bg-slate-800 border border-slate-700 rounded-md p-3">
+            Important: Please keep the app installed for at least <b>14 days</b>{" "}
+            so the testing period can be completed.
+          </p>
         </div>
       </div>
 
