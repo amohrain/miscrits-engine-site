@@ -9550,7 +9550,7 @@
     "descriptions": [
       "Dark Viperd spends most of its time slithering through the underbrush of the Jungle, waiting for an opportunity to attack any passerby",
       "Dark Serplant has an incredible level of patience when seeking its prey. It roots itself into the ground and waits hours for the perfect time to strike",
-      "Dark Foliavage clings desperately to the few leaves left on its wings. The magic being drained from the land has slowly drained the life from Dark Foliavage's body",
+      "Dark Folaviage clings desperately to the few leaves left on its wings. The magic being drained from the land has slowly drained the life from Dark Folaviage's body",
       "The sound of the wind rustling through Dark Toucanaconda's wings is fodder for the nightmares of many Miscrians"
     ],
     "locations": {
@@ -9649,5 +9649,124 @@
     "image": "seelie_back.png",
     "height": 414,
     "width": 379
+  },
+  {
+    "id": 671,
+    "element": "Water",
+    "names": ["Dark Gippo", "Dark Kuda", "Dark Mammus", "Dark Sharkranha"],
+    "rarity": "Rare",
+    "hp": "Moderate",
+    "spd": "Strong",
+    "ea": "Weak",
+    "pa": "Elite",
+    "ed": "Strong",
+    "pd": "Moderate",
+    "ability_order": [78, 33, 55, 97, 1411, 182, 133, 16, 197, 1412, 75, 1413],
+    "descriptions": [
+      "Dark Gippo's innocent, searching eyes hide a terrible rage as well as a tendency to smash things without warning",
+      "Dark Kuda is extremely defensive of its intelligence (or lack thereof) and what it lacks in smarts, it makes up for in sheer brute force",
+      "Dark Mammus is always on the verge of snapping terribly into one of its fits of rage, and can't be trusted in any circumstance",
+      "Dark Sharkranha has no mercy under any circumstances whatsoever, and never leaves a battle unfinished"
+    ],
+    "locations": {
+      "Miscrian Jungle": {
+        "2": [3, 4]
+      }
+    },
+    "image": "dark_sharkranha_back.png",
+    "height": 321,
+    "width": 360
+  },
+  {
+    "id": 672,
+    "element": "WaterWind",
+    "names": ["Aguapogo", "Nawhirlito", "Plessea", "Altamarha"],
+    "rarity": "Epic",
+    "hp": "Max",
+    "spd": "Weak",
+    "ea": "Max",
+    "pa": "Weak",
+    "ed": "Max",
+    "pd": "Strong",
+    "ability_order": [
+      265, 122, 47, 776, 1414, 336, 133, 433, 1084, 1408, 1415, 1416
+    ],
+    "descriptions": [
+      "When Aguapogo was first sighted, Volcano Island locals misidentified it as a lost Wavesling that had somehow wandered into the Miscrian Jungle",
+      "Nawhirlito uses its mastery over water and wind to create powerful whirlpools that drag anything they catch underwater– right into its jaws",
+      "Few are aware of Plessea's ability to fly, a skill it regularly uses to evade clueless Miscrians trying to track it down",
+      "Dubbed the \"Fenholm River Monster\", Altamarha can summon massive waterspouts that bring refreshing rain to the Miscrian Jungle, but also unleash terrifying, destructive storms"
+    ],
+    "locations": {
+      "Miscrian Jungle": {
+        "4": []
+      }
+    },
+    "image": "altamarha_back.png",
+    "height": 458,
+    "width": 270
+  },
+  {
+    "id": 673,
+    "element": "Nature",
+    "names": ["Padma", "Lilystila", "Nuciflora", "Nymphja"],
+    "rarity": "Exotic",
+    "hp": "Moderate",
+    "spd": "Max",
+    "ea": "Elite",
+    "pa": "Weak",
+    "ed": "Strong",
+    "pd": "Strong",
+    "ability_order": [
+      145, 90, 54, 96, 1417, 180, 637, 216, 162, 74, 1418, 1419
+    ],
+    "descriptions": [
+      "The lily pad resting on Padma's back acts as natural camouflage, allowing her to blend seamlessly into ponds and riverbanks and quietly close in on unsuspecting foes",
+      "Lilystila gathers leaves and carefully arranges them to craft a beautiful dress. She bathes in sunlight to keep her plants fresh and vibrant",
+      "Nuciflora's fighting style flows like a mesmerizing dance, stunning her opponents before they can react. On rare nights, she can be seen by the river, dancing gracefully under the moonlight",
+      "Nymphja's swift and elegant movements can take down the most fearsome foe in the blink of an eye. For this reason, nobles and royals often keep her as a trusted retainer to protect them"
+    ],
+    "locations": {
+      "Miscrian Jungle": {
+        "2": []
+      }
+    },
+    "image": "nymphja_back.png",
+    "height": 405,
+    "width": 393
+  },
+  {
+    "id": 674,
+    "element": "FireEarth",
+    "names": [
+      "Light Lavarilla",
+      "Light Sulfuro",
+      "Light Scorias",
+      "Light Obsidiape"
+    ],
+    "rarity": "Legendary",
+    "hp": "Elite",
+    "spd": "Weak",
+    "ea": "Max",
+    "pa": "Max",
+    "ed": "Strong",
+    "pd": "Strong",
+    "ability_order": [
+      1, 241, 53, 73, 1420, 62, 1421, 1422, 7, 1423, 1424, 1425
+    ],
+    "descriptions": [
+      "Light Lavarilla's forearms are so massive and heavy they leave drag marks on the ground beside its footsteps. These serve as a warning to any creature contemplating following the trail",
+      "Light Sulfuro moves slowly on the ground, but is deceptively quick when it decides to swing through the jungle on vines",
+      "Light Scorias's blood is super-heated. If you dare to get close enough you can see it moving through the huge veins in its arms",
+      "A Fire and Earth attack from Light Obsidiape is a combination of fire, molten rock and poisonous gas and can obliterate a foe with a single shot"
+    ],
+    "locations": {
+      "Miscrian Jungle": {
+        "4": []
+      }
+    },
+    "image": "light_obsidiape_back.png",
+    "height": 360,
+    "width": 369
   }
 ]
