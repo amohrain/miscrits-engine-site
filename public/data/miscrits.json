@@ -350,7 +350,7 @@
     "pa": "Weak",
     "ed": "Strong",
     "pd": "Strong",
-    "ability_order": [86, 145, 53, 236, 153, 98, 158, 71, 154, 51, 216, 169],
+    "ability_order": [86, 145, 53, 236, 153, 98, 158, 71, 154, 51, 215, 169],
     "descriptions": [
       "The flower on its head is considered to be a good luck charm in many regions of Miscria. Elefauna is very protective of its head in fear of the flower being picked",
       "A lover of all flowers, Floraphaunt can sometimes be seen charging unsuspecting people for accidentally treading on blooms",
@@ -2188,7 +2188,7 @@
     "pa": "Weak",
     "ed": "Moderate",
     "pd": "Strong",
-    "ability_order": [264, 96, 53, 3, 492, 181, 272, 71, 270, 190, 63, 493],
+    "ability_order": [264, 96, 53, 3, 492, 181, 419, 71, 1410, 190, 63, 493],
     "descriptions": [
       "Dark Owlie only comes out on dark, overcast days so that it can more easily blend into the skies",
       "Dark Regowl does not sleep. It will occasionally perch somewhere, but only to collect itself before launching a brutal onslaught",
@@ -6689,7 +6689,7 @@
     "ed": "Moderate",
     "pd": "Moderate",
     "ability_order": [
-      144, 266, 55, 692, 1098, 296, 161, 87, 1112, 51, 80, 1099
+      144, 266, 55, 692, 1098, 296, 161, 87, 1114, 51, 80, 1099
     ],
     "descriptions": [
       "Like a silent lullaby, Aebex hovers over misty glades, its gaze bringing either calm or sudden drowsiness",
@@ -8465,7 +8465,7 @@
     "ed": "Max",
     "pd": "Max",
     "ability_order": [
-      252, 79, 174, 234, 1280, 336, 216, 1281, 1282, 1202, 1283, 1284
+      252, 79, 174, 234, 1280, 336, 216, 1281, 1282, 1409, 1283, 1284
     ],
     "descriptions": [
       "Shrouded by a cloak of hair, Beldame stalks the sleeping in the dead of night, eating their dreams and leaving only nightmares in their place",
@@ -8635,7 +8635,7 @@
     "pa": "Weak",
     "ed": "Max",
     "pd": "Max",
-    "ability_order": [90, 145, 47, 3, 1296, 81, 158, 48, 27, 229, 74, 1297],
+    "ability_order": [90, 145, 47, 3, 1296, 81, 158, 48, 1407, 229, 74, 1297],
     "descriptions": [
       "Foil Pamboo always appears sleepy. What little rest it gets is often disturbed. It's hard to sleep when your own fur shines in your eyes",
       "Foil Ponya must hold its bamboo stick tightly at all times. Thieves constantly attempt to steal it due to its beauty and uniqueness",
@@ -8995,7 +8995,9 @@
     "pa": "Weak",
     "ed": "Strong",
     "pd": "Strong",
-    "ability_order": [122, 97, 174, 3, 1327, 185, 134, 230, 46, 94, 197, 1328],
+    "ability_order": [
+      122, 97, 174, 3, 1327, 185, 134, 230, 1408, 94, 197, 1328
+    ],
     "descriptions": [
       "Foil Liquifien believed its glimmering exterior would help it to finally be a part of the Temple, but the guard still rejected it",
       "Foil Basilien spends most of its day sulking, because it simply wants to be hidden and its shimmering body makes that nearly impossible",
@@ -9703,8 +9705,8 @@
       }
     },
     "image": "altamarha_back.png",
-    "height": 458,
-    "width": 270
+    "height": 393,
+    "width": 232
   },
   {
     "id": 673,
@@ -9718,7 +9720,7 @@
     "ed": "Strong",
     "pd": "Strong",
     "ability_order": [
-      145, 90, 54, 96, 1417, 180, 637, 216, 162, 74, 1418, 1419
+      145, 90, 54, 96, 1417, 180, 637, 216, 1407, 74, 1418, 1419
     ],
     "descriptions": [
       "The lily pad resting on Padma's back acts as natural camouflage, allowing her to blend seamlessly into ponds and riverbanks and quietly close in on unsuspecting foes",
@@ -9752,7 +9754,7 @@
     "ed": "Strong",
     "pd": "Strong",
     "ability_order": [
-      1, 241, 53, 73, 1420, 62, 1421, 1422, 7, 1423, 1424, 1425
+      1, 241, 53, 185, 1420, 62, 1421, 1422, 7, 1423, 1424, 1425
     ],
     "descriptions": [
       "Light Lavarilla's forearms are so massive and heavy they leave drag marks on the ground beside its footsteps. These serve as a warning to any creature contemplating following the trail",
