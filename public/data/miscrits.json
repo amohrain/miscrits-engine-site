@@ -9771,7 +9771,6 @@
     "height": 360,
     "width": 369
   },
-
   {
     "id": 675,
     "element": "WaterLightning",
@@ -9789,7 +9788,9 @@
         "name": "Headbutt",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -9800,7 +9801,9 @@
         "name": "Spray",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Water",
         "type": "Attack",
         "desc": "A simple Water attack",
@@ -9811,7 +9814,9 @@
         "name": "Debilitate",
         "ap": -11,
         "accempt": false,
-        "enchant": { "ap": -3 },
+        "enchant": {
+          "ap": -3
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Defenses by 11",
@@ -9824,7 +9829,9 @@
         "ap": 15,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Lightning",
         "type": "Attack",
         "desc": "A powerful Lightning attack",
@@ -9836,7 +9843,9 @@
         "ap": 10,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Misc",
         "type": "Barbed",
         "target": "Self",
@@ -9849,7 +9858,9 @@
         "name": "Hyper Power",
         "ap": 12,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -9863,7 +9874,9 @@
         "ap": 25,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Lightning",
         "type": "Attack",
         "desc": "A massively powerful Lightning attack",
@@ -9874,7 +9887,9 @@
         "name": "Zap",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Lightning",
         "type": "Attack",
         "desc": "A simple Lightning attack",
@@ -9885,7 +9900,9 @@
         "name": "Foretold Flood",
         "ap": 11,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Water",
         "type": "TimeBomb",
         "desc": "Inflicts an average Water Time-Bomb that will hit after 3 turns",
@@ -9898,12 +9915,18 @@
         "ap": -25,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "accuracy": 5 },
+        "enchant": {
+          "accuracy": 5
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Speed by 25 and heals yourself by 5 HP",
         "enchant_desc": "+5% Accuracy",
-        "additional": [{ "type": "Heal" }],
+        "additional": [
+          {
+            "type": "Heal"
+          }
+        ],
         "keys": ["spd"]
       },
       {
@@ -9911,12 +9934,18 @@
         "name": "Waterlog",
         "ap": 27,
         "accempt": false,
-        "enchant": { "ap": 5 },
+        "enchant": {
+          "ap": 5
+        },
         "element": "Water",
         "type": "Attack",
         "desc": "A massively powerful Water attack that inflicts Anti-heal for 4 turns",
         "enchant_desc": "+5 Attack Power",
-        "additional": [{ "type": "Antiheal" }]
+        "additional": [
+          {
+            "type": "Antiheal"
+          }
+        ]
       },
       {
         "id": 133,
@@ -9924,7 +9953,9 @@
         "ap": 15,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Water",
         "type": "Attack",
         "desc": "A powerful Water attack",
@@ -9939,11 +9970,10 @@
       "Bettaqua swims skillfully among the reefs, using short bursts of electricity to interact with its own kind or to scare off small predators",
       "Tidaspark's slender body allows it to squeeze into underwater channels and crevices, where it can hide away from predators",
       "Eelectrazur is energetic, curious, and very playful with the people of Miscria, using harmless electric shocks to give them a scare"
-    ],
-    "locations": { "Emerald Isle": { "1": [] } }
+    ]
   },
   {
-    "id": 676,
+    "id": "7733d",
     "element": "Fire",
     "names": ["Mustella", "Fivalis", "Ermelin", "Frenata"],
     "rarity": "Common",
@@ -9959,7 +9989,9 @@
         "name": "Anger",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -9972,7 +10004,9 @@
         "name": "Bleeding",
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "turns": 1 },
+        "enchant": {
+          "turns": 1
+        },
         "element": "Misc",
         "type": "Bleed",
         "desc": "Inflicts Bleed on your foe for 5 turns",
@@ -9984,7 +10018,9 @@
         "name": "Poke",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -9995,7 +10031,9 @@
         "name": "Eraser",
         "ap": -7,
         "accempt": false,
-        "enchant": { "ap": -2 },
+        "enchant": {
+          "ap": -2
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Elemental Attack by 7",
@@ -10008,7 +10046,9 @@
         "ap": 10,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "An average Physical attack that hits 2 times",
@@ -10020,7 +10060,9 @@
         "name": "Intimidation",
         "ap": -11,
         "accempt": false,
-        "enchant": { "ap": -3 },
+        "enchant": {
+          "ap": -3
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Attacks by 11",
@@ -10033,7 +10075,9 @@
         "ap": 15,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Fire",
         "type": "Attack",
         "desc": "A powerful Fire attack",
@@ -10045,7 +10089,13 @@
         "ap": 10,
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Buff",
@@ -10059,7 +10109,13 @@
         "name": "Oil Fire",
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Negate",
@@ -10072,7 +10128,9 @@
         "name": "Burn",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Fire",
         "type": "Attack",
         "desc": "A simple Fire attack",
@@ -10084,7 +10142,9 @@
         "ap": 15,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "accuracy": 5 },
+        "enchant": {
+          "accuracy": 5
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "Deals 15 fixed damage",
@@ -10096,13 +10156,19 @@
         "name": "Dual Jab",
         "ap": 13,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "An average Physical attack that hits 2 times and steals 7 HP from foe",
         "enchant_desc": "+1 Attack Power",
         "times": 2,
-        "additional": [{ "type": "LifeSteal" }]
+        "additional": [
+          {
+            "type": "LifeSteal"
+          }
+        ]
       }
     ],
     "ability_order": [1, 65, 177, 79, 1428, 239, 228, 113, 50, 69, 639, 1429],
@@ -10112,7 +10178,11 @@
       "Ermelin's flexibility is its main weapon, allowing it to easily dodge attacks, confuse its opponents with its movements, and deliver precise strikes",
       "Frenata follows an instinct to destroy everything around it, earning it the nickname \"Flame of Death.\" Before attacking, it heats its limbs to their limit, making them ten times more painful"
     ],
-    "locations": { "Emerald Isle": { "1": [] } }
+    "locations": {
+      "Emerald Isle": {
+        "1": []
+      }
+    }
   },
   {
     "id": 677,
@@ -10131,7 +10201,9 @@
         "name": "Merciless",
         "ap": 9,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -10144,7 +10216,9 @@
         "name": "Shields Up",
         "ap": 5,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -10157,7 +10231,9 @@
         "name": "Intimidation",
         "ap": -11,
         "accempt": false,
-        "enchant": { "ap": -3 },
+        "enchant": {
+          "ap": -3
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Attacks by 11",
@@ -10170,7 +10246,9 @@
         "ap": 20,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A very powerful Physical attack",
@@ -10181,7 +10259,9 @@
         "name": "Rubble",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A simple Earth attack",
@@ -10193,7 +10273,9 @@
         "ap": 15,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A powerful Earth attack",
@@ -10204,7 +10286,9 @@
         "name": "Weaken",
         "ap": -5,
         "accempt": false,
-        "enchant": { "ap": -1 },
+        "enchant": {
+          "ap": -1
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Defenses by 5",
@@ -10216,7 +10300,9 @@
         "name": "Bite",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -10228,7 +10314,13 @@
         "accuracy": 40,
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Confuse",
@@ -10242,7 +10334,9 @@
         "name": "Dual Jewels",
         "ap": 6,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A simple Earth attack that hits 2 times",
@@ -10254,12 +10348,18 @@
         "name": "Muddy Maul",
         "ap": 25,
         "accempt": false,
-        "enchant": { "ap": 4 },
+        "enchant": {
+          "ap": 4
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A massively powerful Earth attack that steals 7 HP from foe",
         "enchant_desc": "+4 Attack Power",
-        "additional": [{ "type": "LifeSteal" }]
+        "additional": [
+          {
+            "type": "LifeSteal"
+          }
+        ]
       },
       {
         "id": 245,
@@ -10267,7 +10367,9 @@
         "ap": 25,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A massively powerful Earth attack",
@@ -10281,7 +10383,11 @@
       "Erratin leaves a lot of traces from its dirty paws, which greatly affects its stealth, so it prefers very sudden attacks",
       "The crystals on Tagoofa's body accumulate heat, heating its body so that the dirt on its body is always in a liquid state for attacks"
     ],
-    "locations": { "Emerald Isle": { "1": [] } }
+    "locations": {
+      "Emerald Isle": {
+        "1": []
+      }
+    }
   },
   {
     "id": 678,
@@ -10300,7 +10406,9 @@
         "name": "Shields Up",
         "ap": 5,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -10313,7 +10421,9 @@
         "name": "Poke",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -10324,7 +10434,9 @@
         "name": "Tickle",
         "ap": -8,
         "accempt": false,
-        "enchant": { "ap": -2 },
+        "enchant": {
+          "ap": -2
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Attacks by 8",
@@ -10336,7 +10448,9 @@
         "name": "Merlin's Beard",
         "ap": 14,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -10349,7 +10463,9 @@
         "name": "Bask",
         "ap": 20,
         "accempt": false,
-        "enchant": { "ap": 5 },
+        "enchant": {
+          "ap": 5
+        },
         "element": "Misc",
         "type": "Heal",
         "target": "Self",
@@ -10361,7 +10477,9 @@
         "name": "Leaves",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Nature",
         "type": "Attack",
         "desc": "A simple Nature attack",
@@ -10373,7 +10491,9 @@
         "ap": 15,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A powerful Physical attack",
@@ -10384,7 +10504,13 @@
         "name": "Photosynth",
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Negate",
@@ -10398,7 +10524,9 @@
         "ap": 20,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 4 },
+        "enchant": {
+          "ap": 4
+        },
         "element": "Nature",
         "type": "Attack",
         "desc": "A very powerful Nature attack",
@@ -10409,7 +10537,9 @@
         "name": "Debaser",
         "ap": -5,
         "accempt": false,
-        "enchant": { "ap": -1 },
+        "enchant": {
+          "ap": -1
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Defenses by 5",
@@ -10422,25 +10552,38 @@
         "ap": 10,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "accuracy": 5 },
+        "enchant": {
+          "accuracy": 5
+        },
         "element": "Nature",
         "type": "Attack",
         "desc": "An average Nature attack that Cleanses user",
         "enchant_desc": "+5% Accuracy",
-        "additional": [{ "type": "Cleanser" }]
+        "additional": [
+          {
+            "type": "Cleanser"
+          }
+        ]
       },
       {
         "id": 1433,
         "name": "Nature's Fury",
         "ap": 10,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Nature",
         "type": "Attack",
         "desc": "An average Nature attack that hits 3 times and steals 9 Elemental Defense from foe",
         "enchant_desc": "+1 Attack Power",
         "times": 3,
-        "additional": [{ "keys": ["ed"], "type": "StatSteal" }]
+        "additional": [
+          {
+            "keys": ["ed"],
+            "type": "StatSteal"
+          }
+        ]
       }
     ],
     "ability_order": [90, 145, 177, 97, 1432, 62, 189, 229, 27, 222, 76, 1433],
@@ -10450,7 +10593,11 @@
       "Bogglin uses its leafy quarters as a place to regenerate. The older it gets, the more time it spends wrapped in foliage for strength",
       "Marshling never attaches roots anywhere. It would much rather be free to roam wherever its heart desires, for the rest of its life"
     ],
-    "locations": { "Emerald Isle": { "1": [4, 5, 6] } }
+    "locations": {
+      "Emerald Isle": {
+        "1": [4, 5, 6]
+      }
+    }
   },
   {
     "id": 679,
@@ -10470,7 +10617,9 @@
         "ap": 20,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "accuracy": 5 },
+        "enchant": {
+          "accuracy": 5
+        },
         "element": "Water",
         "type": "Attack",
         "desc": "A very powerful Water attack",
@@ -10482,7 +10631,9 @@
         "ap": 5,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Misc",
         "type": "Poison",
         "desc": "Poisons your foe, causing 5 damage for 3 turns",
@@ -10494,7 +10645,9 @@
         "name": "Sprinkle",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Water",
         "type": "Attack",
         "desc": "A simple Water attack",
@@ -10506,7 +10659,9 @@
         "ap": 20,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 4 },
+        "enchant": {
+          "ap": 4
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A very powerful Physical attack",
@@ -10518,7 +10673,9 @@
         "ap": 15,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Water",
         "type": "Attack",
         "desc": "A powerful Water attack",
@@ -10529,7 +10686,9 @@
         "name": "Swipe",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -10540,7 +10699,9 @@
         "name": "Power Up",
         "ap": 5,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -10553,7 +10714,9 @@
         "name": "Puddles",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Water",
         "type": "Dot",
         "desc": "Inflicts Water damage over 4 turns",
@@ -10565,7 +10728,9 @@
         "name": "Tussle",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Dot",
         "desc": "Inflicts Physical damage over 4 turns",
@@ -10578,13 +10743,20 @@
         "ap": 15,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Water",
         "type": "TimeBomb",
         "desc": "Inflicts a powerful Water Time-Bomb that will hit after 3 turns and a 15 AP Water Time-Bomb that will hit after 4 turns. 2 turns cooldown",
         "enchant_desc": "+10% Accuracy",
         "turns": 3,
-        "additional": [{ "type": "TimeBomb", "element": "Water" }],
+        "additional": [
+          {
+            "type": "TimeBomb",
+            "element": "Water"
+          }
+        ],
         "cooldown": 2
       },
       {
@@ -10592,19 +10764,28 @@
         "name": "Splash Zone",
         "ap": 29,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Water",
         "type": "Attack",
         "desc": "A massively powerful Water attack that lowers the user's Speed by 25",
         "enchant_desc": "+3 Attack Power",
-        "additional": [{ "keys": ["spd"], "type": "Buff" }]
+        "additional": [
+          {
+            "keys": ["spd"],
+            "type": "Buff"
+          }
+        ]
       },
       {
         "id": 873,
         "name": "Antiheal",
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Misc",
         "type": "Antiheal",
         "desc": "Prevents your foe from healing, causing them to lose health instead of recovering for 4 turns",
@@ -10622,7 +10803,11 @@
       "The only part of Jiggle that's safe to touch without threat of poison is the glowing sun on its chest- anywhere else is toxic",
       "The sound that Blorp makes when it moves can better be described as a \"schlorp\", but for some reason the name Blorp stuck better"
     ],
-    "locations": { "Emerald Isle": { "1": [0, 1, 2, 3] } }
+    "locations": {
+      "Emerald Isle": {
+        "1": [0, 1, 2, 3]
+      }
+    }
   },
   {
     "id": 680,
@@ -10641,7 +10826,9 @@
         "name": "Merciless",
         "ap": 9,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -10655,7 +10842,9 @@
         "ap": 5,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Misc",
         "type": "Poison",
         "desc": "Poisons your foe, causing 5 damage for 3 turns",
@@ -10668,7 +10857,9 @@
         "ap": 20,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Wind",
         "type": "Attack",
         "desc": "A very powerful Wind attack",
@@ -10680,7 +10871,9 @@
         "ap": 20,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 4 },
+        "enchant": {
+          "ap": 4
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A very powerful Physical attack",
@@ -10691,7 +10884,9 @@
         "name": "Weaken",
         "ap": -5,
         "accempt": false,
-        "enchant": { "ap": -1 },
+        "enchant": {
+          "ap": -1
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Defenses by 5",
@@ -10703,7 +10898,9 @@
         "name": "Blow",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Wind",
         "type": "Attack",
         "desc": "A simple Wind attack",
@@ -10714,7 +10911,9 @@
         "name": "Sludge",
         "ap": -11,
         "accempt": false,
-        "enchant": { "ap": -3 },
+        "enchant": {
+          "ap": -3
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Defenses by 11",
@@ -10726,7 +10925,9 @@
         "name": "Bite",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -10737,39 +10938,58 @@
         "name": "Crippling Wind",
         "ap": 5,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Wind",
         "type": "Attack",
         "desc": "A simple Wind attack that Paralyzes foe for 1 turn",
         "enchant_desc": "+2 Attack Power",
-        "additional": [{ "type": "Paralyze" }]
+        "additional": [
+          {
+            "type": "Paralyze"
+          }
+        ]
       },
       {
         "id": 1439,
         "name": "Paralyze Immune",
         "accempt": false,
-        "enchant": { "turns": 1 },
+        "enchant": {
+          "turns": 1
+        },
         "element": "Misc",
         "type": "PI",
         "target": "Self",
         "desc": "Makes the user immune to Paralyze for 5 turns that heals yourself by 5 HP",
         "enchant_desc": "+1 Turn",
         "turns": 5,
-        "additional": [{ "type": "Heal" }]
+        "additional": [
+          {
+            "type": "Heal"
+          }
+        ]
       },
       {
         "id": 1440,
         "name": "Airborne Ailment",
         "ap": 25,
         "accempt": false,
-        "enchant": { "ap": 5 },
+        "enchant": {
+          "ap": 5
+        },
         "element": "Wind",
         "type": "Attack",
         "desc": "A massively powerful Wind attack that inflicts 4 AP Disease for 2 turns and lowers the user's Speed by 30",
         "enchant_desc": "+5 Attack Power",
         "additional": [
-          { "type": "Disease" },
-          { "keys": ["spd"], "type": "Buff" }
+          {
+            "type": "Disease"
+          },
+          {
+            "keys": ["spd"],
+            "type": "Buff"
+          }
         ]
       },
       {
@@ -10778,12 +10998,18 @@
         "ap": 15,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "accuracy": 5 },
+        "enchant": {
+          "accuracy": 5
+        },
         "element": "Wind",
         "type": "Attack",
         "desc": "A powerful Wind attack that heals yourself by 10 HP",
         "enchant_desc": "+5% Accuracy",
-        "additional": [{ "type": "Heal" }]
+        "additional": [
+          {
+            "type": "Heal"
+          }
+        ]
       }
     ],
     "ability_order": [266, 96, 55, 2, 1438, 71, 620, 1439, 1410, 191, 99, 1440],
@@ -10793,7 +11019,11 @@
       "Elloa usually leads a solitary lifestyle, but if they are provoked, they gather in packs to attack their aggressor, leaving no chance for survival",
       "Ocypela flies without any problems, despite the heavy stones in its body. Their strength allows Ocypela to withstand serious blows"
     ],
-    "locations": { "Emerald Isle": { "2": [] } }
+    "locations": {
+      "Emerald Isle": {
+        "2": []
+      }
+    }
   },
   {
     "id": 681,
@@ -10812,7 +11042,9 @@
         "name": "Swell",
         "ap": 8,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -10825,7 +11057,9 @@
         "name": "Bewitch",
         "ap": -10,
         "accempt": false,
-        "enchant": { "ap": -2 },
+        "enchant": {
+          "ap": -2
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Elemental Attack by 10",
@@ -10838,7 +11072,9 @@
         "ap": 14,
         "accuracy": 85,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Misc",
         "type": "Poison",
         "desc": "Poisons your foe, causing 14 damage for 3 turns",
@@ -10850,7 +11086,9 @@
         "name": "Shove",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -10862,7 +11100,9 @@
         "ap": -10,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "accuracy": 5 },
+        "enchant": {
+          "accuracy": 5
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Accuracy by 10%",
@@ -10874,7 +11114,9 @@
         "name": "Flash",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Lightning",
         "type": "Attack",
         "desc": "A simple Lightning attack",
@@ -10885,7 +11127,9 @@
         "name": "Unbreakable",
         "ap": 11,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -10898,7 +11142,9 @@
         "name": "Acid",
         "ap": -11,
         "accempt": false,
-        "enchant": { "ap": -2 },
+        "enchant": {
+          "ap": -2
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Elemental Defense by 11",
@@ -10911,7 +11157,13 @@
         "ap": 7,
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Lightning",
         "type": "Attack",
@@ -10924,12 +11176,18 @@
         "name": "Therapeutic Shock",
         "ap": 26,
         "accempt": false,
-        "enchant": { "ap": 4 },
+        "enchant": {
+          "ap": 4
+        },
         "element": "Lightning",
         "type": "Attack",
         "desc": "A massively powerful Lightning attack that grants 6 healing for 2 turns",
         "enchant_desc": "+4 Attack Power",
-        "additional": [{ "type": "Hot" }]
+        "additional": [
+          {
+            "type": "Hot"
+          }
+        ]
       },
       {
         "id": 1480,
@@ -10937,25 +11195,37 @@
         "ap": 12,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Lightning",
         "type": "Attack",
         "desc": "An average Lightning attack that Cleanses user",
         "enchant_desc": "+10% Accuracy",
-        "additional": [{ "type": "Cleanser" }]
+        "additional": [
+          {
+            "type": "Cleanser"
+          }
+        ]
       },
       {
         "id": 776,
         "name": "Confuse Immune",
         "accempt": false,
-        "enchant": { "turns": 1 },
+        "enchant": {
+          "turns": 1
+        },
         "element": "Misc",
         "type": "CI",
         "target": "Self",
         "desc": "Makes the user immune to Confuse for 5 turns and heals yourself by 5 HP",
         "enchant_desc": "+1 Turn",
         "turns": 5,
-        "additional": [{ "type": "Heal" }]
+        "additional": [
+          {
+            "type": "Heal"
+          }
+        ]
       }
     ],
     "ability_order": [
@@ -10967,7 +11237,11 @@
       "Hopada's spikes are constantly energized, providing it with good protection, but it takes a lot of energy, making it slow-moving",
       "Lastropod can absorb energy during thunderstorms, which is why they are often used as lightning rods for homes, saving many houses from destruction"
     ],
-    "locations": { "Emerald Isle": { "2": [] } }
+    "locations": {
+      "Emerald Isle": {
+        "2": []
+      }
+    }
   },
   {
     "id": 682,
@@ -10987,7 +11261,13 @@
         "accuracy": 40,
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Sleep",
@@ -11001,7 +11281,9 @@
         "name": "Headbutt",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -11012,7 +11294,9 @@
         "name": "Shields Up",
         "ap": 5,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -11025,7 +11309,9 @@
         "name": "Ignite",
         "ap": 11,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -11039,7 +11325,9 @@
         "ap": 15,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A powerful Physical attack",
@@ -11051,7 +11339,13 @@
         "ap": 10,
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Buff",
@@ -11065,7 +11359,9 @@
         "name": "Burn",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Fire",
         "type": "Attack",
         "desc": "A simple Fire attack",
@@ -11076,7 +11372,9 @@
         "name": "Gear Up",
         "ap": 10,
         "accempt": false,
-        "enchant": { "ap": 5 },
+        "enchant": {
+          "ap": 5
+        },
         "element": "Misc",
         "type": "Block",
         "target": "Self",
@@ -11089,7 +11387,9 @@
         "ap": 15,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Fire",
         "type": "Attack",
         "desc": "A powerful Fire attack",
@@ -11101,13 +11401,20 @@
         "ap": 13,
         "accuracy": 160,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Fire",
         "type": "TimeBomb",
         "desc": "Inflicts an average Fire Time-Bomb that will hit after 2 turns and a 13 AP Fire Time-Bomb that will hit after 3 turns. (1 Use)",
         "enchant_desc": "+10% Accuracy",
         "turns": 2,
-        "additional": [{ "type": "TimeBomb", "element": "Fire" }],
+        "additional": [
+          {
+            "type": "TimeBomb",
+            "element": "Fire"
+          }
+        ],
         "cooldown": -1
       },
       {
@@ -11116,12 +11423,19 @@
         "ap": 20,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "accuracy": 5 },
+        "enchant": {
+          "accuracy": 5
+        },
         "element": "Fire",
         "type": "Attack",
         "desc": "A very powerful Fire attack that inflicts a 15 AP Fire Time-Bomb that will hit after 4 turns",
         "enchant_desc": "+5% Accuracy",
-        "additional": [{ "type": "TimeBomb", "element": "Fire" }]
+        "additional": [
+          {
+            "type": "TimeBomb",
+            "element": "Fire"
+          }
+        ]
       },
       {
         "id": 7,
@@ -11129,7 +11443,9 @@
         "ap": 20,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Fire",
         "type": "Attack",
         "desc": "A very powerful Fire attack",
@@ -11143,7 +11459,11 @@
       "The thermal energy produced by Komagma's body is stored up inside its shell, which it uses to fire precise blasts at its enemies",
       "Dragerupt stores a massive amount of magma within its body, releasing controlled bursts of lava to terraform its surroundings"
     ],
-    "locations": { "Emerald Isle": { "2": [4, 5, 6] } }
+    "locations": {
+      "Emerald Isle": {
+        "2": [4, 5, 6]
+      }
+    }
   },
   {
     "id": 683,
@@ -11162,7 +11482,9 @@
         "name": "Headbutt",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -11173,7 +11495,9 @@
         "name": "Shields Up",
         "ap": 5,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -11187,7 +11511,9 @@
         "ap": 5,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Misc",
         "type": "Poison",
         "desc": "Poisons your foe, causing 5 damage for 3 turns",
@@ -11199,7 +11525,9 @@
         "name": "Feebler",
         "ap": -8,
         "accempt": false,
-        "enchant": { "ap": -2 },
+        "enchant": {
+          "ap": -2
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Defenses by 8",
@@ -11212,7 +11540,9 @@
         "ap": 20,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A very powerful Physical attack",
@@ -11223,7 +11553,13 @@
         "name": "Sandstorm",
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Negate",
@@ -11236,7 +11572,9 @@
         "name": "Rubble",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A simple Earth attack",
@@ -11248,7 +11586,13 @@
         "accuracy": 40,
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Confuse",
@@ -11263,7 +11607,9 @@
         "ap": 25,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A massively powerful Earth attack",
@@ -11274,24 +11620,38 @@
         "name": "Pebble Punch",
         "ap": 9,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack that inflicts 6 AP Earth DoT for 2 turns",
         "enchant_desc": "+1 Attack Power",
-        "additional": [{ "type": "Dot", "element": "Earth" }]
+        "additional": [
+          {
+            "type": "Dot",
+            "element": "Earth"
+          }
+        ]
       },
       {
         "id": 1448,
         "name": "Earth Shatter",
         "ap": 30,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A more than massively powerful Physical attack that inflicts an 11 AP Earth Time-Bomb that will hit after 4 turns. 2 turns cooldown",
         "enchant_desc": "+3 Attack Power",
-        "additional": [{ "type": "TimeBomb", "element": "Earth" }],
+        "additional": [
+          {
+            "type": "TimeBomb",
+            "element": "Earth"
+          }
+        ],
         "cooldown": 2
       },
       {
@@ -11299,7 +11659,9 @@
         "name": "Whammy",
         "ap": 10,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "An average Physical attack",
@@ -11313,7 +11675,11 @@
       "Snortphire's snout digs about the dirt and waste to find nutrition to further develop its mineral-filled body",
       "Apitite's odor is overwhelming, which it uses to its advantage when combined with Earth-infused abilities"
     ],
-    "locations": { "Emerald Isle": { "2": [0, 1, 2, 3] } }
+    "locations": {
+      "Emerald Isle": {
+        "2": [0, 1, 2, 3]
+      }
+    }
   },
   {
     "id": 684,
@@ -11333,7 +11699,9 @@
         "ap": 15,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A powerful Physical attack",
@@ -11344,7 +11712,9 @@
         "name": "Overgrowth",
         "ap": 25,
         "accempt": false,
-        "enchant": { "ap": 5 },
+        "enchant": {
+          "ap": 5
+        },
         "element": "Nature",
         "type": "Attack",
         "desc": "A massively powerful Nature attack",
@@ -11355,7 +11725,9 @@
         "name": "Leaves",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Nature",
         "type": "Attack",
         "desc": "A simple Nature attack",
@@ -11367,7 +11739,9 @@
         "ap": 15,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Nature",
         "type": "Attack",
         "desc": "A powerful Nature attack",
@@ -11378,7 +11752,13 @@
         "name": "Gilly Weed",
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Negate",
@@ -11391,7 +11771,9 @@
         "name": "Crumble",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A simple Earth attack",
@@ -11402,7 +11784,9 @@
         "name": "Unbreakable",
         "ap": 11,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -11415,7 +11799,9 @@
         "name": "Power Up",
         "ap": 5,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -11428,12 +11814,19 @@
         "name": "Stony Slam",
         "ap": 10,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "An average Earth attack that lowers foe's Defenses by 7",
         "enchant_desc": "+2 Attack Power",
-        "additional": [{ "keys": ["ed", "pd"], "type": "Buff" }]
+        "additional": [
+          {
+            "keys": ["ed", "pd"],
+            "type": "Buff"
+          }
+        ]
       },
       {
         "id": 1450,
@@ -11441,20 +11834,28 @@
         "ap": 4,
         "accuracy": 105,
         "accempt": false,
-        "enchant": { "times": 1 },
+        "enchant": {
+          "times": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack that hits 8 times and heals yourself by 15 HP",
         "enchant_desc": "+1 Repeat",
         "times": 8,
-        "additional": [{ "type": "Heal" }]
+        "additional": [
+          {
+            "type": "Heal"
+          }
+        ]
       },
       {
         "id": 176,
         "name": "Hit",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -11466,7 +11867,9 @@
         "ap": 13,
         "accuracy": 80,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Earth",
         "type": "Dot",
         "desc": "Inflicts Earth damage over 3 turns",
@@ -11483,7 +11886,11 @@
       "Chanelgr wields its many stone spikes with ruthless accuracy, and almost always lands perfectly on its target",
       "Stagermeiser is as smart and cunning as it is strong, which makes it a terrifying adversary for anyone"
     ],
-    "locations": { "Emerald Isle": { "2": [] } }
+    "locations": {
+      "Emerald Isle": {
+        "2": []
+      }
+    }
   },
   {
     "id": 685,
@@ -11502,7 +11909,9 @@
         "name": "Vines",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Nature",
         "type": "Attack",
         "desc": "A simple Nature attack",
@@ -11513,7 +11922,9 @@
         "name": "Overgrowth",
         "ap": 25,
         "accempt": false,
-        "enchant": { "ap": 5 },
+        "enchant": {
+          "ap": 5
+        },
         "element": "Nature",
         "type": "Attack",
         "desc": "A massively powerful Nature attack",
@@ -11525,7 +11936,9 @@
         "ap": 5,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Misc",
         "type": "Poison",
         "desc": "Poisons your foe, causing 5 damage for 3 turns",
@@ -11538,7 +11951,9 @@
         "ap": 25,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A massively powerful Physical attack",
@@ -11549,7 +11964,9 @@
         "name": "Tickle",
         "ap": -8,
         "accempt": false,
-        "enchant": { "ap": -2 },
+        "enchant": {
+          "ap": -2
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Attacks by 8",
@@ -11562,7 +11979,9 @@
         "ap": 15,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A powerful Physical attack",
@@ -11573,7 +11992,13 @@
         "name": "Photosynth",
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Negate",
@@ -11586,7 +12011,9 @@
         "name": "Bite",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -11597,7 +12024,9 @@
         "name": "Power Up",
         "ap": 5,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -11611,7 +12040,13 @@
         "accuracy": 40,
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Confuse",
@@ -11625,26 +12060,40 @@
         "name": "Leafy Smack",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Nature",
         "type": "Attack",
         "desc": "A simple Nature attack that inflicts 9 AP Physical DoT for 1 turn",
         "enchant_desc": "+2 Attack Power",
-        "additional": [{ "type": "Dot", "element": "Physical" }]
+        "additional": [
+          {
+            "type": "Dot",
+            "element": "Physical"
+          }
+        ]
       },
       {
         "id": 1452,
         "name": "Bunny Hop",
         "ap": 28,
         "accempt": false,
-        "enchant": { "ap": 5 },
+        "enchant": {
+          "ap": 5
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A massively powerful Physical attack that Paralyzes foe for 1 turn and inflicts a 9 AP Nature Time-Bomb that will hit after 4 turns",
         "enchant_desc": "+5 Attack Power",
         "additional": [
-          { "type": "Paralyze" },
-          { "type": "TimeBomb", "element": "Nature" }
+          {
+            "type": "Paralyze"
+          },
+          {
+            "type": "TimeBomb",
+            "element": "Nature"
+          }
         ]
       }
     ],
@@ -11655,7 +12104,11 @@
       "Cottonthrash's leafy tail is its pride and joy. It whips back and forth ferociously as it runs and is always kept perfectly manicured",
       "Foliare uses its tail to get more air on its jumps, which it does to fly above and around trees while it races through the Isle"
     ],
-    "locations": { "Emerald Isle": { "2": [] } }
+    "locations": {
+      "Emerald Isle": {
+        "2": []
+      }
+    }
   },
   {
     "id": 686,
@@ -11675,7 +12128,13 @@
         "accuracy": 40,
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Sleep",
@@ -11689,7 +12148,9 @@
         "name": "Headbutt",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -11701,7 +12162,9 @@
         "ap": 30,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "accuracy": 5 },
+        "enchant": {
+          "accuracy": 5
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A more than massively powerful Earth attack",
@@ -11712,7 +12175,9 @@
         "name": "Ignite",
         "ap": 11,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -11725,7 +12190,13 @@
         "name": "Firewater",
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Negate",
@@ -11738,7 +12209,9 @@
         "name": "Burn",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Fire",
         "type": "Attack",
         "desc": "A simple Fire attack",
@@ -11749,7 +12222,9 @@
         "name": "Rubble",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A simple Earth attack",
@@ -11761,7 +12236,9 @@
         "ap": 15,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A powerful Earth attack",
@@ -11773,7 +12250,9 @@
         "ap": 15,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Fire",
         "type": "Attack",
         "desc": "A powerful Fire attack",
@@ -11784,12 +12263,18 @@
         "name": "Rock Flip",
         "ap": 9,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A simple Earth attack that Paralyzes foe for 1 turn",
         "enchant_desc": "+2 Attack Power",
-        "additional": [{ "type": "Paralyze" }]
+        "additional": [
+          {
+            "type": "Paralyze"
+          }
+        ]
       },
       {
         "id": 1454,
@@ -11797,27 +12282,41 @@
         "ap": 14,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Fire",
         "type": "TimeBomb",
         "desc": "Inflicts a 14 AP Fire Time-Bomb and 14 AP Earth Time-Bomb that will hit after 3 turns",
         "enchant_desc": "+10% Accuracy",
         "turns": 3,
-        "additional": [{ "type": "TimeBomb", "element": "Earth" }]
+        "additional": [
+          {
+            "type": "TimeBomb",
+            "element": "Earth"
+          }
+        ]
       },
       {
         "id": 1455,
         "name": "Fiery Waddle",
         "ap": 30,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Fire",
         "type": "Attack",
         "desc": "A more than massively powerful Fire attack that applies Barbed (1 stack) and raises your Attacks by 2",
         "enchant_desc": "+2 Attack Power",
         "additional": [
-          { "type": "Barbed" },
-          { "keys": ["ea", "pa"], "type": "Buff" }
+          {
+            "type": "Barbed"
+          },
+          {
+            "keys": ["ea", "pa"],
+            "type": "Buff"
+          }
         ]
       }
     ],
@@ -11830,7 +12329,11 @@
       "Mallardrock's flames are hot enough to melt some stones into a silty, mud-like material that offers a protective covering on its legs",
       "Duckrust's flame wings aren't anywhere near strong enough to carry it off the ground, but it's happier being one with the earth anyway"
     ],
-    "locations": { "Emerald Isle": { "2": [] } }
+    "locations": {
+      "Emerald Isle": {
+        "2": []
+      }
+    }
   },
   {
     "id": 687,
@@ -11850,13 +12353,26 @@
         "accuracy": 170,
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Block", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Block",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Special",
         "desc": "Force switches foe and Paralyzes foe for 2 turns. (1 Use)",
         "enchant_desc": "Provides 5 Block",
-        "additional": [{ "type": "ForceSwitch" }, { "type": "Paralyze" }],
+        "additional": [
+          {
+            "type": "ForceSwitch"
+          },
+          {
+            "type": "Paralyze"
+          }
+        ],
         "cooldown": -1
       },
       {
@@ -11864,7 +12380,9 @@
         "name": "Max Power",
         "ap": 9,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -11877,7 +12395,9 @@
         "name": "Leaves",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Nature",
         "type": "Attack",
         "desc": "A simple Nature attack",
@@ -11889,7 +12409,9 @@
         "ap": 25,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Nature",
         "type": "Attack",
         "desc": "A massively powerful Nature attack",
@@ -11901,7 +12423,9 @@
         "ap": 15,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A powerful Physical attack",
@@ -11913,7 +12437,9 @@
         "ap": 20,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 4 },
+        "enchant": {
+          "ap": 4
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A very powerful Physical attack",
@@ -11924,7 +12450,9 @@
         "name": "Weaken",
         "ap": -5,
         "accempt": false,
-        "enchant": { "ap": -1 },
+        "enchant": {
+          "ap": -1
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Defenses by 5",
@@ -11936,7 +12464,9 @@
         "name": "Swipe",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -11947,7 +12477,9 @@
         "name": "Power Peck",
         "ap": 10,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "An average Physical attack",
@@ -11958,32 +12490,46 @@
         "name": "Talon Shred",
         "ap": 25,
         "accempt": false,
-        "enchant": { "ap": 6 },
+        "enchant": {
+          "ap": 6
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A massively powerful Physical attack that inflicts Bleed for 4 turns",
         "enchant_desc": "+6 Attack Power",
-        "additional": [{ "type": "Bleed" }]
+        "additional": [
+          {
+            "type": "Bleed"
+          }
+        ]
       },
       {
         "id": 779,
         "name": "Sleep Immune",
         "accempt": false,
-        "enchant": { "turns": 1 },
+        "enchant": {
+          "turns": 1
+        },
         "element": "Misc",
         "type": "SI",
         "target": "Self",
         "desc": "Makes the user immune to Sleep for 5 turns that heals yourself by 5 HP",
         "enchant_desc": "+1 Turn",
         "turns": 5,
-        "additional": [{ "type": "Heal" }]
+        "additional": [
+          {
+            "type": "Heal"
+          }
+        ]
       },
       {
         "id": 873,
         "name": "Antiheal",
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Misc",
         "type": "Antiheal",
         "desc": "Prevents your foe from healing, causing them to lose health instead of recovering for 4 turns",
@@ -12001,7 +12547,11 @@
       "Daisle gives all its energy to nature so that the plants of the Emerald Island remain alive and vibrant. This, however, can sometimes come at the cost of its life",
       "Floringo's feathers are razor-sharp. When combined with its flying speed, it's a formidable opponent, capable of cutting down a tree at the single flap of a wing"
     ],
-    "locations": { "Emerald Isle": { "3": [] } }
+    "locations": {
+      "Emerald Isle": {
+        "3": []
+      }
+    }
   },
   {
     "id": 688,
@@ -12021,7 +12571,13 @@
         "accuracy": 40,
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Sleep",
@@ -12035,7 +12591,9 @@
         "name": "Headbutt",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -12046,7 +12604,9 @@
         "name": "Ignite",
         "ap": 11,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -12059,7 +12619,9 @@
         "name": "Magic Eraser",
         "ap": -13,
         "accempt": false,
-        "enchant": { "ap": -3 },
+        "enchant": {
+          "ap": -3
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Elemental Attack by 13",
@@ -12072,7 +12634,9 @@
         "ap": 25,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Lightning",
         "type": "Attack",
         "desc": "A massively powerful Lightning attack",
@@ -12083,7 +12647,9 @@
         "name": "Burn",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Fire",
         "type": "Attack",
         "desc": "A simple Fire attack",
@@ -12094,7 +12660,9 @@
         "name": "Flash",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Lightning",
         "type": "Attack",
         "desc": "A simple Lightning attack",
@@ -12105,7 +12673,9 @@
         "name": "Walls",
         "ap": 10,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -12119,7 +12689,9 @@
         "ap": 20,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "accuracy": 5 },
+        "enchant": {
+          "accuracy": 5
+        },
         "element": "Fire",
         "type": "Attack",
         "desc": "A very powerful Fire attack",
@@ -12130,37 +12702,56 @@
         "name": "Booming Sky",
         "ap": 9,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Lightning",
         "type": "Attack",
         "desc": "A simple Lightning attack that inflicts 5 AP Lightning DoT for 1 turn",
         "enchant_desc": "+1 Attack Power",
-        "additional": [{ "type": "Dot", "element": "Lightning" }]
+        "additional": [
+          {
+            "type": "Dot",
+            "element": "Lightning"
+          }
+        ]
       },
       {
         "id": 1459,
         "name": "Scorching Smog",
         "ap": 25,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Fire",
         "type": "Attack",
         "desc": "A massively powerful Fire attack that inflicts 7 AP Poison for 2 turns",
         "enchant_desc": "+2 Attack Power",
-        "additional": [{ "type": "Poison" }]
+        "additional": [
+          {
+            "type": "Poison"
+          }
+        ]
       },
       {
         "id": 776,
         "name": "Confuse Immune",
         "accempt": false,
-        "enchant": { "turns": 1 },
+        "enchant": {
+          "turns": 1
+        },
         "element": "Misc",
         "type": "CI",
         "target": "Self",
         "desc": "Makes the user immune to Confuse for 5 turns and heals yourself by 5 HP",
         "enchant_desc": "+1 Turn",
         "turns": 5,
-        "additional": [{ "type": "Heal" }]
+        "additional": [
+          {
+            "type": "Heal"
+          }
+        ]
       }
     ],
     "ability_order": [1, 253, 53, 73, 1458, 776, 16, 337, 1185, 1409, 80, 1459],
@@ -12170,7 +12761,11 @@
       "Calcifire is a rather arrogant Miscrit, having failed in attempts to be liked, it begins to burn with anger",
       "During Smougorn's tantrums, its smoke mane swells with sparks, and the air around it becomes charged before lightning ultimately strikes"
     ],
-    "locations": { "Emerald Isle": { "3": [] } }
+    "locations": {
+      "Emerald Isle": {
+        "3": []
+      }
+    }
   },
   {
     "id": 689,
@@ -12189,7 +12784,9 @@
         "name": "Spray",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Water",
         "type": "Attack",
         "desc": "A simple Water attack",
@@ -12201,7 +12798,9 @@
         "ap": 25,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 4 },
+        "enchant": {
+          "ap": 4
+        },
         "element": "Water",
         "type": "Attack",
         "desc": "A massively powerful Water attack",
@@ -12213,12 +12812,18 @@
         "ap": 15,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "accuracy": 5 },
+        "enchant": {
+          "accuracy": 5
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A powerful Physical attack that heals yourself by 10 HP",
         "enchant_desc": "+5% Accuracy",
-        "additional": [{ "type": "Heal" }]
+        "additional": [
+          {
+            "type": "Heal"
+          }
+        ]
       },
       {
         "id": 1264,
@@ -12226,7 +12831,9 @@
         "ap": 20,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A very powerful Physical attack",
@@ -12238,7 +12845,9 @@
         "ap": 10,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 5 },
+        "enchant": {
+          "accuracy": 5
+        },
         "element": "Misc",
         "type": "Poison",
         "desc": "Poisons your foe, causing 10 damage for 3 turns",
@@ -12250,7 +12859,9 @@
         "name": "Safeguard",
         "ap": 8,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -12263,7 +12874,9 @@
         "name": "Weaken",
         "ap": -5,
         "accempt": false,
-        "enchant": { "ap": -1 },
+        "enchant": {
+          "ap": -1
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Defenses by 5",
@@ -12276,12 +12889,18 @@
         "ap": -25,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "accuracy": 5 },
+        "enchant": {
+          "accuracy": 5
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Speed by 25 and heals yourself by 5 HP",
         "enchant_desc": "+5% Accuracy",
-        "additional": [{ "type": "Heal" }],
+        "additional": [
+          {
+            "type": "Heal"
+          }
+        ],
         "keys": ["spd"]
       },
       {
@@ -12289,7 +12908,9 @@
         "name": "Hit",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -12301,7 +12922,13 @@
         "ap": 10,
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 10, "type": "Block", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 10,
+              "type": "Block",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Water",
         "type": "Attack",
@@ -12314,15 +12941,22 @@
         "ap": 20,
         "accuracy": 170,
         "accempt": false,
-        "enchant": { "ap": 5 },
+        "enchant": {
+          "ap": 5
+        },
         "element": "Misc",
         "type": "Heal",
         "target": "Self",
         "desc": "Regains a significant amount of your health, removes your elemental weakness and lowers your Attacks and Speed by 100. (1 Use)",
         "enchant_desc": "+5 Heal",
         "additional": [
-          { "type": "Negate" },
-          { "keys": ["ea", "pa", "spd"], "type": "Buff" }
+          {
+            "type": "Negate"
+          },
+          {
+            "keys": ["ea", "pa", "spd"],
+            "type": "Buff"
+          }
         ],
         "cooldown": -1
       },
@@ -12331,12 +12965,19 @@
         "name": "Shell Slam",
         "ap": 27,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A massively powerful Physical attack that steals 10 Defenses from foe",
         "enchant_desc": "+3 Attack Power",
-        "additional": [{ "keys": ["ed", "pd"], "type": "StatSteal" }]
+        "additional": [
+          {
+            "keys": ["ed", "pd"],
+            "type": "StatSteal"
+          }
+        ]
       }
     ],
     "ability_order": [
@@ -12348,7 +12989,11 @@
       "Splashix hates germs, and will go to great lengths to avoid being touched by other Miscrits. This sometimes causes it to avoid battles",
       "Even though the World of Miscria is filled with magic, Moon Pie has always had a keen interest in the science behind these phenomena"
     ],
-    "locations": { "Emerald Isle": { "3": [] } }
+    "locations": {
+      "Emerald Isle": {
+        "3": []
+      }
+    }
   },
   {
     "id": 690,
@@ -12368,7 +13013,9 @@
         "ap": 15,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A powerful Physical attack",
@@ -12379,7 +13026,9 @@
         "name": "Shields Up",
         "ap": 5,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -12392,7 +13041,9 @@
         "name": "Fetal Position",
         "ap": -5,
         "accempt": false,
-        "enchant": { "ap": -1 },
+        "enchant": {
+          "ap": -1
+        },
         "element": "Misc",
         "type": "Buff",
         "desc": "Lowers your foe's Attacks by 5",
@@ -12405,7 +13056,9 @@
         "ap": 14,
         "accuracy": 85,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Misc",
         "type": "Poison",
         "desc": "Poisons your foe, causing 14 damage for 3 turns",
@@ -12417,7 +13070,13 @@
         "name": "Sandstorm",
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Negate",
@@ -12430,7 +13089,9 @@
         "name": "Rubble",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A simple Earth attack",
@@ -12442,7 +13103,9 @@
         "ap": 15,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A powerful Earth attack",
@@ -12453,7 +13116,9 @@
         "name": "Summons",
         "ap": 10,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -12467,7 +13132,9 @@
         "ap": 25,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A massively powerful Earth attack",
@@ -12478,7 +13145,9 @@
         "name": "Hit",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -12510,15 +13179,25 @@
         "name": "Serpent Slime",
         "ap": 28,
         "accempt": false,
-        "enchant": { "ap": 5 },
+        "enchant": {
+          "ap": 5
+        },
         "element": "Earth",
         "type": "Attack",
         "desc": "A massively powerful Earth attack that inflicts 7 AP Disease for 2 turns, lowers foe's Elemental Defense by 7 and raises your Physical Defense by 7",
         "enchant_desc": "+5 Attack Power",
         "additional": [
-          { "type": "Disease" },
-          { "keys": ["ed"], "type": "Buff" },
-          { "keys": ["pd"], "type": "Buff" }
+          {
+            "type": "Disease"
+          },
+          {
+            "keys": ["ed"],
+            "type": "Buff"
+          },
+          {
+            "keys": ["pd"],
+            "type": "Buff"
+          }
         ]
       }
     ],
@@ -12531,7 +13210,11 @@
       "Viridius summoned the two snakes at its side from an energy below the earth's surface. They accompany him in battle",
       "Basiluck likes to leave the outcome of its battles up to chance. Although it's very powerful and could win on its own, it has more fun that way"
     ],
-    "locations": { "Emerald Isle": { "3": [] } }
+    "locations": {
+      "Emerald Isle": {
+        "3": []
+      }
+    }
   },
   {
     "id": 691,
@@ -12550,7 +13233,9 @@
         "name": "Vines",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Nature",
         "type": "Attack",
         "desc": "A simple Nature attack",
@@ -12562,7 +13247,9 @@
         "ap": 5,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Misc",
         "type": "Poison",
         "desc": "Poisons your foe, causing 5 damage for 3 turns",
@@ -12575,7 +13262,9 @@
         "ap": 20,
         "accuracy": 95,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A very powerful Physical attack",
@@ -12587,7 +13276,9 @@
         "ap": 15,
         "accuracy": 90,
         "accempt": false,
-        "enchant": { "accuracy": 10 },
+        "enchant": {
+          "accuracy": 10
+        },
         "element": "Nature",
         "type": "Attack",
         "desc": "A powerful Nature attack",
@@ -12598,7 +13289,9 @@
         "name": "Slap",
         "ap": 7,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack",
@@ -12609,7 +13302,13 @@
         "name": "Gilly Weed",
         "accempt": false,
         "enchant": {
-          "additional": [{ "ap": 5, "type": "Heal", "target": "Self" }]
+          "additional": [
+            {
+              "ap": 5,
+              "type": "Heal",
+              "target": "Self"
+            }
+          ]
         },
         "element": "Misc",
         "type": "Negate",
@@ -12622,7 +13321,9 @@
         "name": "Power Up",
         "ap": 5,
         "accempt": false,
-        "enchant": { "ap": 1 },
+        "enchant": {
+          "ap": 1
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
@@ -12635,12 +13336,18 @@
         "name": "Skull Scraper",
         "ap": 9,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A simple Physical attack that inflicts Bleed for 2 turns",
         "enchant_desc": "+2 Attack Power",
-        "additional": [{ "type": "Bleed" }]
+        "additional": [
+          {
+            "type": "Bleed"
+          }
+        ]
       },
       {
         "id": 1466,
@@ -12648,13 +13355,20 @@
         "ap": 160,
         "accuracy": 170,
         "accempt": false,
-        "enchant": { "ap": 40 },
+        "enchant": {
+          "ap": 40
+        },
         "element": "Misc",
         "type": "Buff",
         "target": "Self",
         "desc": "Raises your Elemental Attack by 160, but continuously lowers your Elemental Attack by 40 for 5 turns. 10 turns cooldown",
         "enchant_desc": "+40 to Buff",
-        "additional": [{ "keys": ["ea"], "type": "Bot" }],
+        "additional": [
+          {
+            "keys": ["ea"],
+            "type": "Bot"
+          }
+        ],
         "keys": ["ea"],
         "cooldown": 10
       },
@@ -12663,7 +13377,9 @@
         "name": "Ensnare",
         "ap": 30,
         "accempt": false,
-        "enchant": { "ap": 2 },
+        "enchant": {
+          "ap": 2
+        },
         "element": "Nature",
         "type": "TimeBomb",
         "desc": "Inflicts a more than massively powerful Nature Time-Bomb that will hit after 3 turns. 2 turns cooldown",
@@ -12676,12 +13392,18 @@
         "name": "Binding Bush",
         "ap": 30,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Nature",
         "type": "Attack",
         "desc": "A more than massively powerful Nature attack that Paralyzes foe for 2 turns. 2 turns cooldown",
         "enchant_desc": "+3 Attack Power",
-        "additional": [{ "type": "Paralyze" }],
+        "additional": [
+          {
+            "type": "Paralyze"
+          }
+        ],
         "cooldown": 2
       },
       {
@@ -12689,12 +13411,21 @@
         "name": "Jagged Jaws",
         "ap": 30,
         "accempt": false,
-        "enchant": { "ap": 3 },
+        "enchant": {
+          "ap": 3
+        },
         "element": "Physical",
         "type": "Attack",
         "desc": "A massively powerful Physical attack that inflicts 7 AP Disease for 2 turns and steals 5 HP from foe",
         "enchant_desc": "+3 Attack Power",
-        "additional": [{ "type": "Disease" }, { "type": "LifeSteal" }]
+        "additional": [
+          {
+            "type": "Disease"
+          },
+          {
+            "type": "LifeSteal"
+          }
+        ]
       }
     ],
     "ability_order": [
@@ -12706,6 +13437,10 @@
       "The motives of Deathfaller are still unclear. On the one hand, he defends his home, the Emerald Isle, while on the other, he terrorizes the local miscrits, particularly the Amphibunny",
       "Silvigo is known as the \"King of the Emerald Isle\". He collects life force from literally everything alive, turning into a reckless monster and tearing his enemies to shreds"
     ],
-    "locations": { "Emerald Isle": { "3": [] } }
+    "locations": {
+      "Emerald Isle": {
+        "3": []
+      }
+    }
   }
 ]
