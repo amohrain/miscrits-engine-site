@@ -73,19 +73,6 @@
     "keys": ["ea", "pa"]
   },
   {
-    "id": 4,
-    "name": "Fire Flight",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 3
-    },
-    "element": "Fire",
-    "type": "Attack",
-    "desc": "An average Fire attack",
-    "enchant_desc": "+3 Attack Power"
-  },
-  {
     "id": 6,
     "name": "Campfire",
     "ap": 15,
@@ -97,6 +84,19 @@
     "element": "Fire",
     "type": "Attack",
     "desc": "A powerful Fire attack",
+    "enchant_desc": "+3 Attack Power"
+  },
+  {
+    "id": 4,
+    "name": "Fire Flight",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 3
+    },
+    "element": "Fire",
+    "type": "Attack",
+    "desc": "An average Fire attack",
     "enchant_desc": "+3 Attack Power"
   },
   {
@@ -191,21 +191,6 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
-    "id": 88,
-    "name": "Toughen Up",
-    "ap": 5,
-    "accempt": false,
-    "enchant": {
-      "ap": 1
-    },
-    "element": "Misc",
-    "type": "Buff",
-    "target": "Self",
-    "desc": "Raises your Defenses by 5",
-    "enchant_desc": "+1 to Buff",
-    "keys": ["ed", "pd"]
-  },
-  {
     "id": 50,
     "name": "Blitz",
     "ap": 10,
@@ -219,6 +204,21 @@
     "desc": "An average Physical attack that hits 2 times",
     "enchant_desc": "+10% Accuracy",
     "times": 2
+  },
+  {
+    "id": 88,
+    "name": "Toughen Up",
+    "ap": 5,
+    "accempt": false,
+    "enchant": {
+      "ap": 1
+    },
+    "element": "Misc",
+    "type": "Buff",
+    "target": "Self",
+    "desc": "Raises your Defenses by 5",
+    "enchant_desc": "+1 to Buff",
+    "keys": ["ed", "pd"]
   },
   {
     "id": 215,
@@ -269,6 +269,19 @@
     "enchant_desc": "+4 Attack Power"
   },
   {
+    "id": 54,
+    "name": "Swipe",
+    "ap": 7,
+    "accempt": false,
+    "enchant": {
+      "ap": 1
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "A simple Physical attack",
+    "enchant_desc": "+1 Attack Power"
+  },
+  {
     "id": 28,
     "name": "Thrive",
     "ap": 10,
@@ -295,19 +308,6 @@
     "type": "Attack",
     "desc": "A massively powerful Nature attack",
     "enchant_desc": "+2 Attack Power"
-  },
-  {
-    "id": 54,
-    "name": "Swipe",
-    "ap": 7,
-    "accempt": false,
-    "enchant": {
-      "ap": 1
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "A simple Physical attack",
-    "enchant_desc": "+1 Attack Power"
   },
   {
     "id": 144,
@@ -490,21 +490,6 @@
     "cooldown": 2
   },
   {
-    "id": 76,
-    "name": "Merlin's Beard",
-    "ap": 14,
-    "accempt": false,
-    "enchant": {
-      "ap": 3
-    },
-    "element": "Misc",
-    "type": "Buff",
-    "target": "Self",
-    "desc": "Raises your Elemental Attack by 14",
-    "enchant_desc": "+3 to Buff",
-    "keys": ["ea"]
-  },
-  {
     "id": 91,
     "name": "Body Armor",
     "ap": 7,
@@ -518,6 +503,21 @@
     "desc": "Raises your Physical Defense by 7",
     "enchant_desc": "+1 to Buff",
     "keys": ["pd"]
+  },
+  {
+    "id": 76,
+    "name": "Merlin's Beard",
+    "ap": 14,
+    "accempt": false,
+    "enchant": {
+      "ap": 3
+    },
+    "element": "Misc",
+    "type": "Buff",
+    "target": "Self",
+    "desc": "Raises your Elemental Attack by 14",
+    "enchant_desc": "+3 to Buff",
+    "keys": ["ea"]
   },
   {
     "id": 216,
@@ -591,19 +591,6 @@
     "enchant_desc": "+10% Accuracy"
   },
   {
-    "id": 287,
-    "name": "Leaf Blade",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Nature",
-    "type": "Attack",
-    "desc": "An average Nature attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 288,
     "name": "Dual Dragon",
     "ap": 17,
@@ -617,6 +604,19 @@
     "desc": "A powerful Nature attack that hits 2 times",
     "enchant_desc": "+10% Accuracy",
     "times": 2
+  },
+  {
+    "id": 287,
+    "name": "Leaf Blade",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Nature",
+    "type": "Attack",
+    "desc": "An average Nature attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 162,
@@ -661,20 +661,6 @@
     "keys": ["pa"]
   },
   {
-    "id": 152,
-    "name": "Tangle",
-    "ap": 10,
-    "accuracy": 95,
-    "accempt": false,
-    "enchant": {
-      "accuracy": 5
-    },
-    "element": "Nature",
-    "type": "Attack",
-    "desc": "An average Nature attack",
-    "enchant_desc": "+5% Accuracy"
-  },
-  {
     "id": 71,
     "name": "Merciless",
     "ap": 9,
@@ -688,6 +674,20 @@
     "desc": "Raises your Attacks by 9",
     "enchant_desc": "+2 to Buff",
     "keys": ["ea", "pa"]
+  },
+  {
+    "id": 152,
+    "name": "Tangle",
+    "ap": 10,
+    "accuracy": 95,
+    "accempt": false,
+    "enchant": {
+      "accuracy": 5
+    },
+    "element": "Nature",
+    "type": "Attack",
+    "desc": "An average Nature attack",
+    "enchant_desc": "+5% Accuracy"
   },
   {
     "id": 164,
@@ -943,6 +943,20 @@
     "immunity": 4
   },
   {
+    "id": 135,
+    "name": "Storm",
+    "ap": 20,
+    "accuracy": 95,
+    "accempt": false,
+    "enchant": {
+      "ap": 4
+    },
+    "element": "Water",
+    "type": "Attack",
+    "desc": "A very powerful Water attack",
+    "enchant_desc": "+4 Attack Power"
+  },
+  {
     "id": 212,
     "name": "Freak Out",
     "ap": 10,
@@ -964,20 +978,6 @@
         "target": "Self"
       }
     ]
-  },
-  {
-    "id": 135,
-    "name": "Storm",
-    "ap": 20,
-    "accuracy": 95,
-    "accempt": false,
-    "enchant": {
-      "ap": 4
-    },
-    "element": "Water",
-    "type": "Attack",
-    "desc": "A very powerful Water attack",
-    "enchant_desc": "+4 Attack Power"
   },
   {
     "id": 133,
@@ -1224,20 +1224,6 @@
     "keys": ["ea"]
   },
   {
-    "id": 9,
-    "name": "Passion",
-    "ap": 20,
-    "accuracy": 95,
-    "accempt": false,
-    "enchant": {
-      "ap": 5
-    },
-    "element": "Fire",
-    "type": "Attack",
-    "desc": "A very powerful Fire attack",
-    "enchant_desc": "+5 Attack Power"
-  },
-  {
     "id": 8,
     "name": "Fire Dance",
     "ap": 10,
@@ -1266,6 +1252,35 @@
     "times": 2
   },
   {
+    "id": 9,
+    "name": "Passion",
+    "ap": 20,
+    "accuracy": 95,
+    "accempt": false,
+    "enchant": {
+      "ap": 5
+    },
+    "element": "Fire",
+    "type": "Attack",
+    "desc": "A very powerful Fire attack",
+    "enchant_desc": "+5 Attack Power"
+  },
+  {
+    "id": 237,
+    "name": "Bright Lights",
+    "ap": -10,
+    "accuracy": 95,
+    "accempt": false,
+    "enchant": {
+      "accuracy": 5
+    },
+    "element": "Misc",
+    "type": "Buff",
+    "desc": "Lowers your foe's Accuracy by 10%",
+    "enchant_desc": "+5% Accuracy",
+    "keys": ["acc"]
+  },
+  {
     "id": 232,
     "name": "Firewater",
     "accempt": false,
@@ -1283,21 +1298,6 @@
     "target": "Self",
     "desc": "Removes your elemental weakness",
     "enchant_desc": "Replenishes 5 Health"
-  },
-  {
-    "id": 237,
-    "name": "Bright Lights",
-    "ap": -10,
-    "accuracy": 95,
-    "accempt": false,
-    "enchant": {
-      "accuracy": 5
-    },
-    "element": "Misc",
-    "type": "Buff",
-    "desc": "Lowers your foe's Accuracy by 10%",
-    "enchant_desc": "+5% Accuracy",
-    "keys": ["acc"]
   },
   {
     "id": 101,
@@ -1328,21 +1328,6 @@
     "keys": ["ea", "pa"]
   },
   {
-    "id": 2,
-    "name": "Poison",
-    "ap": 5,
-    "accuracy": 95,
-    "accempt": false,
-    "enchant": {
-      "ap": 1
-    },
-    "element": "Misc",
-    "type": "Poison",
-    "desc": "Poisons your foe, causing 5 damage for 3 turns",
-    "enchant_desc": "+1 Attack Power",
-    "turns": 3
-  },
-  {
     "id": 90,
     "name": "Shields Up",
     "ap": 5,
@@ -1356,6 +1341,21 @@
     "desc": "Raises your Defenses by 5",
     "enchant_desc": "+1 to Buff",
     "keys": ["ed", "pd"]
+  },
+  {
+    "id": 2,
+    "name": "Poison",
+    "ap": 5,
+    "accuracy": 95,
+    "accempt": false,
+    "enchant": {
+      "ap": 1
+    },
+    "element": "Misc",
+    "type": "Poison",
+    "desc": "Poisons your foe, causing 5 damage for 3 turns",
+    "enchant_desc": "+1 Attack Power",
+    "turns": 3
   },
   {
     "id": 117,
@@ -1630,20 +1630,6 @@
     ]
   },
   {
-    "id": 83,
-    "name": "Bewitch",
-    "ap": -10,
-    "accempt": false,
-    "enchant": {
-      "ap": -2
-    },
-    "element": "Misc",
-    "type": "Buff",
-    "desc": "Lowers your foe's Elemental Attack by 10",
-    "enchant_desc": "+2 to Debuff",
-    "keys": ["ea"]
-  },
-  {
     "id": 92,
     "name": "Spirit Shield",
     "ap": 7,
@@ -1657,6 +1643,20 @@
     "desc": "Raises your Elemental Defense by 7",
     "enchant_desc": "+1 to Buff",
     "keys": ["ed"]
+  },
+  {
+    "id": 83,
+    "name": "Bewitch",
+    "ap": -10,
+    "accempt": false,
+    "enchant": {
+      "ap": -2
+    },
+    "element": "Misc",
+    "type": "Buff",
+    "desc": "Lowers your foe's Elemental Attack by 10",
+    "enchant_desc": "+2 to Debuff",
+    "keys": ["ea"]
   },
   {
     "id": 129,
@@ -2533,19 +2533,6 @@
     "enchant_desc": "+3 Attack Power"
   },
   {
-    "id": 308,
-    "name": "Air Dance",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Wind",
-    "type": "Attack",
-    "desc": "An average Wind attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 309,
     "name": "Lullaby Wind",
     "ap": 25,
@@ -2563,6 +2550,19 @@
         "ap": 7
       }
     ]
+  },
+  {
+    "id": 308,
+    "name": "Air Dance",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Wind",
+    "type": "Attack",
+    "desc": "An average Wind attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 390,
@@ -2762,6 +2762,19 @@
     "enchant_desc": "+1 Attack Power"
   },
   {
+    "id": 412,
+    "name": "Dizzying Winds",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Wind",
+    "type": "Attack",
+    "desc": "An average Wind attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 413,
     "name": "Toxic Puff",
     "ap": 25,
@@ -2781,16 +2794,16 @@
     ]
   },
   {
-    "id": 412,
-    "name": "Dizzying Winds",
+    "id": 243,
+    "name": "Mummy Mudbomb",
     "ap": 10,
     "accempt": false,
     "enchant": {
       "ap": 2
     },
-    "element": "Wind",
+    "element": "Earth",
     "type": "Attack",
-    "desc": "An average Wind attack",
+    "desc": "An average Earth attack",
     "enchant_desc": "+2 Attack Power"
   },
   {
@@ -2810,19 +2823,6 @@
         "type": "Heal"
       }
     ]
-  },
-  {
-    "id": 243,
-    "name": "Mummy Mudbomb",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Earth",
-    "type": "Attack",
-    "desc": "An average Earth attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 220,
@@ -2927,6 +2927,19 @@
     "enchant_desc": "+1 Attack Power"
   },
   {
+    "id": 442,
+    "name": "Jelly Jolt",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Lightning",
+    "type": "Attack",
+    "desc": "An average Lightning attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 443,
     "name": "Super Sting",
     "ap": 10,
@@ -2958,19 +2971,6 @@
     "element": "Physical",
     "type": "Attack",
     "desc": "An average Physical attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
-    "id": 442,
-    "name": "Jelly Jolt",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Lightning",
-    "type": "Attack",
-    "desc": "An average Lightning attack",
     "enchant_desc": "+2 Attack Power"
   },
   {
@@ -3024,20 +3024,6 @@
     ]
   },
   {
-    "id": 293,
-    "name": "Rock Throw",
-    "ap": 20,
-    "accuracy": 90,
-    "accempt": false,
-    "enchant": {
-      "accuracy": 10
-    },
-    "element": "Earth",
-    "type": "Attack",
-    "desc": "A very powerful Earth attack",
-    "enchant_desc": "+10% Accuracy"
-  },
-  {
     "id": 291,
     "name": "Hoofquake",
     "ap": 10,
@@ -3057,6 +3043,20 @@
     "type": "Attack",
     "desc": "An average Earth attack",
     "enchant_desc": "+20% chance to Poison for 3 turns"
+  },
+  {
+    "id": 293,
+    "name": "Rock Throw",
+    "ap": 20,
+    "accuracy": 90,
+    "accempt": false,
+    "enchant": {
+      "accuracy": 10
+    },
+    "element": "Earth",
+    "type": "Attack",
+    "desc": "A very powerful Earth attack",
+    "enchant_desc": "+10% Accuracy"
   },
   {
     "id": 461,
@@ -3090,20 +3090,6 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
-    "id": 290,
-    "name": "Headbash",
-    "ap": 36,
-    "accuracy": 85,
-    "accempt": false,
-    "enchant": {
-      "accuracy": 5
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "An extremely powerful Physical attack",
-    "enchant_desc": "+5% Accuracy"
-  },
-  {
     "id": 289,
     "name": "Rock Charge",
     "ap": 10,
@@ -3123,6 +3109,20 @@
     "type": "Attack",
     "desc": "An average Earth attack",
     "enchant_desc": "+10% chance to Confuse for 2 turns"
+  },
+  {
+    "id": 290,
+    "name": "Headbash",
+    "ap": 36,
+    "accuracy": 85,
+    "accempt": false,
+    "enchant": {
+      "accuracy": 5
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "An extremely powerful Physical attack",
+    "enchant_desc": "+5% Accuracy"
   },
   {
     "id": 418,
@@ -3593,6 +3593,19 @@
     "enchant_desc": "+3 Attack Power"
   },
   {
+    "id": 304,
+    "name": "Lightning Dance",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 3
+    },
+    "element": "Lightning",
+    "type": "Attack",
+    "desc": "An average Lightning attack",
+    "enchant_desc": "+3 Attack Power"
+  },
+  {
     "id": 305,
     "name": "Sparkler",
     "ap": 17,
@@ -3606,19 +3619,6 @@
     "desc": "A powerful Lightning attack that hits 2 times",
     "enchant_desc": "+5% Accuracy",
     "times": 2
-  },
-  {
-    "id": 304,
-    "name": "Lightning Dance",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 3
-    },
-    "element": "Lightning",
-    "type": "Attack",
-    "desc": "An average Lightning attack",
-    "enchant_desc": "+3 Attack Power"
   },
   {
     "id": 189,
@@ -3732,20 +3732,6 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
-    "id": 322,
-    "name": "Kindle",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 5
-    },
-    "element": "Misc",
-    "type": "Heal",
-    "target": "Self",
-    "desc": "Recovers a fair amount of your health",
-    "enchant_desc": "+5 Heal"
-  },
-  {
     "id": 323,
     "name": "Meowferno",
     "ap": 29,
@@ -3765,6 +3751,20 @@
         "ap": 15
       }
     ]
+  },
+  {
+    "id": 322,
+    "name": "Kindle",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 5
+    },
+    "element": "Misc",
+    "type": "Heal",
+    "target": "Self",
+    "desc": "Recovers a fair amount of your health",
+    "enchant_desc": "+5 Heal"
   },
   {
     "id": 450,
@@ -3802,19 +3802,6 @@
     ]
   },
   {
-    "id": 434,
-    "name": "Flying Kick",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Wind",
-    "type": "Attack",
-    "desc": "An average Wind attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 433,
     "name": "Gale",
     "ap": 15,
@@ -3827,6 +3814,19 @@
     "type": "Attack",
     "desc": "A powerful Wind attack",
     "enchant_desc": "+3 Attack Power"
+  },
+  {
+    "id": 434,
+    "name": "Flying Kick",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Wind",
+    "type": "Attack",
+    "desc": "An average Wind attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 95,
@@ -3900,6 +3900,27 @@
     ]
   },
   {
+    "id": 406,
+    "name": "Ruthless Bite",
+    "ap": 6,
+    "accuracy": 90,
+    "accempt": false,
+    "enchant": {
+      "accuracy": 10
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "A simple Physical attack that hits 5 times and provides 10 Block",
+    "enchant_desc": "+10% Accuracy",
+    "times": 5,
+    "additional": [
+      {
+        "type": "Block",
+        "ap": 10
+      }
+    ]
+  },
+  {
     "id": 407,
     "name": "Double Edged",
     "ap": 15,
@@ -3920,27 +3941,6 @@
       }
     ],
     "keys": ["pa"]
-  },
-  {
-    "id": 406,
-    "name": "Ruthless Bite",
-    "ap": 6,
-    "accuracy": 90,
-    "accempt": false,
-    "enchant": {
-      "accuracy": 10
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "A simple Physical attack that hits 5 times and provides 10 Block",
-    "enchant_desc": "+10% Accuracy",
-    "times": 5,
-    "additional": [
-      {
-        "type": "Block",
-        "ap": 10
-      }
-    ]
   },
   {
     "id": 398,
@@ -4189,20 +4189,6 @@
     "turns": 6
   },
   {
-    "id": 80,
-    "name": "Magic Eraser",
-    "ap": -13,
-    "accempt": false,
-    "enchant": {
-      "ap": -3
-    },
-    "element": "Misc",
-    "type": "Buff",
-    "desc": "Lowers your foe's Elemental Attack by 13",
-    "enchant_desc": "+3 to Debuff",
-    "keys": ["ea"]
-  },
-  {
     "id": 79,
     "name": "Eraser",
     "ap": -7,
@@ -4214,6 +4200,20 @@
     "type": "Buff",
     "desc": "Lowers your foe's Elemental Attack by 7",
     "enchant_desc": "+2 to Debuff",
+    "keys": ["ea"]
+  },
+  {
+    "id": 80,
+    "name": "Magic Eraser",
+    "ap": -13,
+    "accempt": false,
+    "enchant": {
+      "ap": -3
+    },
+    "element": "Misc",
+    "type": "Buff",
+    "desc": "Lowers your foe's Elemental Attack by 13",
+    "enchant_desc": "+3 to Debuff",
     "keys": ["ea"]
   },
   {
@@ -5266,19 +5266,6 @@
     ]
   },
   {
-    "id": 498,
-    "name": "Dark Bedrock",
-    "ap": 11,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Earth",
-    "type": "Attack",
-    "desc": "An average Earth attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 499,
     "name": "Dark Colossal Bite",
     "ap": 21,
@@ -5300,6 +5287,19 @@
         "target": "Self"
       }
     ]
+  },
+  {
+    "id": 498,
+    "name": "Dark Bedrock",
+    "ap": 11,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Earth",
+    "type": "Attack",
+    "desc": "An average Earth attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 149,
@@ -5807,25 +5807,6 @@
     ]
   },
   {
-    "id": 339,
-    "name": "Consume",
-    "ap": 25,
-    "accempt": false,
-    "enchant": {
-      "ap": 4
-    },
-    "element": "Fire",
-    "type": "Attack",
-    "desc": "A massively powerful Fire attack with a 90% chance to grant 10 healing for 2 turns",
-    "enchant_desc": "+4 Attack Power",
-    "additional": [
-      {
-        "type": "Hot",
-        "accuracy": 90
-      }
-    ]
-  },
-  {
     "id": 335,
     "name": "Scorcher",
     "ap": 10,
@@ -5866,6 +5847,25 @@
     "target": "Self",
     "desc": "Regains a significant amount of your health",
     "enchant_desc": "+5 Heal"
+  },
+  {
+    "id": 339,
+    "name": "Consume",
+    "ap": 25,
+    "accempt": false,
+    "enchant": {
+      "ap": 4
+    },
+    "element": "Fire",
+    "type": "Attack",
+    "desc": "A massively powerful Fire attack with a 90% chance to grant 10 healing for 2 turns",
+    "enchant_desc": "+4 Attack Power",
+    "additional": [
+      {
+        "type": "Hot",
+        "accuracy": 90
+      }
+    ]
   },
   {
     "id": 274,
@@ -6092,19 +6092,6 @@
     ]
   },
   {
-    "id": 344,
-    "name": "Gator Geyser",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Water",
-    "type": "Attack",
-    "desc": "An average Water attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 345,
     "name": "Water Rattle",
     "ap": 26,
@@ -6121,6 +6108,19 @@
         "type": "Barbed"
       }
     ]
+  },
+  {
+    "id": 344,
+    "name": "Gator Geyser",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Water",
+    "type": "Attack",
+    "desc": "An average Water attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 873,
@@ -6203,6 +6203,20 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
+    "id": 321,
+    "name": "Bear Stare",
+    "ap": -10,
+    "accempt": false,
+    "enchant": {
+      "ap": -2
+    },
+    "element": "Misc",
+    "type": "Buff",
+    "desc": "Lowers your foe's Attacks by 10",
+    "enchant_desc": "+2 to Debuff",
+    "keys": ["ea", "pa"]
+  },
+  {
     "id": 320,
     "name": "Sea Swell",
     "ap": 11,
@@ -6227,20 +6241,6 @@
         "accuracy": 75
       }
     ]
-  },
-  {
-    "id": 321,
-    "name": "Bear Stare",
-    "ap": -10,
-    "accempt": false,
-    "enchant": {
-      "ap": -2
-    },
-    "element": "Misc",
-    "type": "Buff",
-    "desc": "Lowers your foe's Attacks by 10",
-    "enchant_desc": "+2 to Debuff",
-    "keys": ["ea", "pa"]
   },
   {
     "id": 408,
@@ -6278,6 +6278,19 @@
     ]
   },
   {
+    "id": 454,
+    "name": "Zap Wings",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Lightning",
+    "type": "Attack",
+    "desc": "An average Lightning attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 455,
     "name": "Swooping Lightning",
     "ap": 30,
@@ -6296,19 +6309,6 @@
         "ap": 10
       }
     ]
-  },
-  {
-    "id": 454,
-    "name": "Zap Wings",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Lightning",
-    "type": "Attack",
-    "desc": "An average Lightning attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 301,
@@ -6863,24 +6863,6 @@
     ]
   },
   {
-    "id": 147,
-    "name": "Superpower",
-    "ap": 30,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "A more than massively powerful Physical attack that heals yourself by 15 HP",
-    "enchant_desc": "+2 Attack Power",
-    "additional": [
-      {
-        "type": "Heal"
-      }
-    ]
-  },
-  {
     "id": 116,
     "name": "Teleport",
     "ap": 4,
@@ -6917,6 +6899,24 @@
     "enchant_desc": "+5 Heal"
   },
   {
+    "id": 147,
+    "name": "Superpower",
+    "ap": 30,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "A more than massively powerful Physical attack that heals yourself by 15 HP",
+    "enchant_desc": "+2 Attack Power",
+    "additional": [
+      {
+        "type": "Heal"
+      }
+    ]
+  },
+  {
     "id": 228,
     "name": "Oil Fire",
     "accempt": false,
@@ -6934,6 +6934,19 @@
     "target": "Self",
     "desc": "Removes your elemental weakness",
     "enchant_desc": "Replenishes 5 Health"
+  },
+  {
+    "id": 594,
+    "name": "Toothy Torch",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Fire",
+    "type": "Attack",
+    "desc": "An average Fire attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 595,
@@ -6954,19 +6967,6 @@
         "ap": 7
       }
     ]
-  },
-  {
-    "id": 594,
-    "name": "Toothy Torch",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Fire",
-    "type": "Attack",
-    "desc": "An average Fire attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 279,
@@ -7100,19 +7100,6 @@
     "enchant_desc": "+15% chance to Poison for 3 turns"
   },
   {
-    "id": 622,
-    "name": "Pincer Polish",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Earth",
-    "type": "Attack",
-    "desc": "An average Earth attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 623,
     "name": "Shiny Stones",
     "ap": 10,
@@ -7135,6 +7122,19 @@
     ]
   },
   {
+    "id": 622,
+    "name": "Pincer Polish",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Earth",
+    "type": "Attack",
+    "desc": "An average Earth attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 1114,
     "name": "Hurricane",
     "ap": 7,
@@ -7150,6 +7150,25 @@
     "times": 4
   },
   {
+    "id": 864,
+    "name": "Veto",
+    "ap": 29,
+    "accempt": false,
+    "enchant": {
+      "ap": 3
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "A massively powerful Physical attack that provides 10 Block",
+    "enchant_desc": "+3 Attack Power",
+    "additional": [
+      {
+        "type": "Block",
+        "ap": 10
+      }
+    ]
+  },
+  {
     "id": 862,
     "name": "Fireworks",
     "ap": -10,
@@ -7163,6 +7182,19 @@
     "desc": "Lowers your foe's Accuracy by 10%",
     "enchant_desc": "+10% Accuracy",
     "keys": ["acc"]
+  },
+  {
+    "id": 863,
+    "name": "Winds of Sovereignty",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Wind",
+    "type": "Attack",
+    "desc": "An average Wind attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 865,
@@ -7181,38 +7213,6 @@
     "additional": [
       {
         "type": "Heal"
-      }
-    ]
-  },
-  {
-    "id": 863,
-    "name": "Winds of Sovereignty",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Wind",
-    "type": "Attack",
-    "desc": "An average Wind attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
-    "id": 864,
-    "name": "Veto",
-    "ap": 29,
-    "accempt": false,
-    "enchant": {
-      "ap": 3
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "A massively powerful Physical attack that provides 10 Block",
-    "enchant_desc": "+3 Attack Power",
-    "additional": [
-      {
-        "type": "Block",
-        "ap": 10
       }
     ]
   },
@@ -7259,19 +7259,6 @@
     ]
   },
   {
-    "id": 852,
-    "name": "Electric Shuffle",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Lightning",
-    "type": "Attack",
-    "desc": "An average Lightning attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 853,
     "name": "Centiprod",
     "ap": 7,
@@ -7290,6 +7277,19 @@
         "ap": 8
       }
     ]
+  },
+  {
+    "id": 852,
+    "name": "Electric Shuffle",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Lightning",
+    "type": "Attack",
+    "desc": "An average Lightning attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1264,
@@ -7337,19 +7337,6 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
-    "id": 103,
-    "name": "Ghostly Glow",
-    "ap": 11,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Fire",
-    "type": "Attack",
-    "desc": "An average Fire attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 106,
     "name": "Chilling Winds",
     "ap": 28,
@@ -7373,6 +7360,19 @@
         "target": "Self"
       }
     ]
+  },
+  {
+    "id": 103,
+    "name": "Ghostly Glow",
+    "ap": 11,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Fire",
+    "type": "Attack",
+    "desc": "An average Fire attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 226,
@@ -7519,6 +7519,19 @@
     ]
   },
   {
+    "id": 669,
+    "name": "Foil Petrify",
+    "ap": 12,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Earth",
+    "type": "Attack",
+    "desc": "An average Earth attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 670,
     "name": "Foil Tectonic Shift",
     "ap": 29,
@@ -7539,19 +7552,6 @@
         "ap": 10
       }
     ]
-  },
-  {
-    "id": 669,
-    "name": "Foil Petrify",
-    "ap": 12,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Earth",
-    "type": "Attack",
-    "desc": "An average Earth attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 727,
@@ -7913,6 +7913,19 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
+    "id": 878,
+    "name": "Hotpads",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Fire",
+    "type": "Attack",
+    "desc": "An average Fire attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 879,
     "name": "Beating Flames",
     "ap": 17,
@@ -7959,19 +7972,6 @@
         "type": "Heal"
       }
     ]
-  },
-  {
-    "id": 878,
-    "name": "Hotpads",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Fire",
-    "type": "Attack",
-    "desc": "An average Fire attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 689,
@@ -8055,19 +8055,6 @@
     "times": 4
   },
   {
-    "id": 675,
-    "name": "Wing Beats",
-    "ap": 13,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Wind",
-    "type": "Attack",
-    "desc": "An average Wind attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 676,
     "name": "Eerie Breeze",
     "ap": 30,
@@ -8085,6 +8072,19 @@
         "ap": 10
       }
     ]
+  },
+  {
+    "id": 675,
+    "name": "Wing Beats",
+    "ap": 13,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Wind",
+    "type": "Attack",
+    "desc": "An average Wind attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 833,
@@ -8182,6 +8182,19 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
+    "id": 820,
+    "name": "Muddy Paws",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Earth",
+    "type": "Attack",
+    "desc": "An average Earth attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 821,
     "name": "Fierce Bite",
     "ap": 35,
@@ -8202,19 +8215,6 @@
       }
     ],
     "cooldown": 2
-  },
-  {
-    "id": 820,
-    "name": "Muddy Paws",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Earth",
-    "type": "Attack",
-    "desc": "An average Earth attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 671,
@@ -8327,20 +8327,6 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
-    "id": 829,
-    "name": "Sticky Splash",
-    "ap": 11,
-    "accempt": false,
-    "enchant": {
-      "ap": 1
-    },
-    "element": "Water",
-    "type": "Dot",
-    "desc": "Inflicts Water damage over 3 turns",
-    "enchant_desc": "+1 Attack Power",
-    "turns": 3
-  },
-  {
     "id": 830,
     "name": "Aquaranha",
     "ap": 15,
@@ -8358,6 +8344,20 @@
         "type": "Heal"
       }
     ]
+  },
+  {
+    "id": 829,
+    "name": "Sticky Splash",
+    "ap": 11,
+    "accempt": false,
+    "enchant": {
+      "ap": 1
+    },
+    "element": "Water",
+    "type": "Dot",
+    "desc": "Inflicts Water damage over 3 turns",
+    "enchant_desc": "+1 Attack Power",
+    "turns": 3
   },
   {
     "id": 673,
@@ -8536,19 +8536,6 @@
     ]
   },
   {
-    "id": 845,
-    "name": "Rocky Fists",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Earth",
-    "type": "Attack",
-    "desc": "An average Earth attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 846,
     "name": "Header",
     "ap": 10,
@@ -8576,6 +8563,19 @@
     ]
   },
   {
+    "id": 845,
+    "name": "Rocky Fists",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Earth",
+    "type": "Attack",
+    "desc": "An average Earth attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 907,
     "name": "Red Card",
     "ap": 10,
@@ -8587,7 +8587,7 @@
     "element": "Misc",
     "type": "Heal",
     "target": "Self",
-    "desc": "Recovers a fair amount of health and forcefully switches your foe",
+    "desc": "Recovers a fair amount of health and forcefully switches your foe. 2 turns cooldown",
     "enchant_desc": "+5 Heal",
     "additional": [
       {
@@ -8687,26 +8687,6 @@
     "enchant_desc": "Replenishes 5 Health"
   },
   {
-    "id": 111,
-    "name": "Arcanaclaw Splash",
-    "ap": 32,
-    "accuracy": 95,
-    "accempt": false,
-    "enchant": {
-      "accuracy": 5
-    },
-    "element": "Water",
-    "type": "Attack",
-    "desc": "A more than massively powerful Water attack that steals 10 HP from foe",
-    "enchant_desc": "+5% Accuracy",
-    "additional": [
-      {
-        "type": "LifeSteal",
-        "ap": 10
-      }
-    ]
-  },
-  {
     "id": 110,
     "name": "Snapping Claw",
     "ap": 30,
@@ -8724,6 +8704,26 @@
         "keys": ["ea", "pa"],
         "type": "StatSteal",
         "ap": 9
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Arcanaclaw Splash",
+    "ap": 32,
+    "accuracy": 95,
+    "accempt": false,
+    "enchant": {
+      "accuracy": 5
+    },
+    "element": "Water",
+    "type": "Attack",
+    "desc": "A more than massively powerful Water attack that steals 10 HP from foe",
+    "enchant_desc": "+5% Accuracy",
+    "additional": [
+      {
+        "type": "LifeSteal",
+        "ap": 10
       }
     ]
   },
@@ -9277,6 +9277,20 @@
     "enchant_desc": "+5 Heal"
   },
   {
+    "id": 1269,
+    "name": "Whirlpool",
+    "ap": 20,
+    "accuracy": 95,
+    "accempt": false,
+    "enchant": {
+      "accuracy": 5
+    },
+    "element": "Water",
+    "type": "Attack",
+    "desc": "A very powerful Water attack",
+    "enchant_desc": "+5% Accuracy"
+  },
+  {
     "id": 986,
     "name": "Krakyn Klaw",
     "ap": 30,
@@ -9295,20 +9309,6 @@
         "ap": 10
       }
     ]
-  },
-  {
-    "id": 1269,
-    "name": "Whirlpool",
-    "ap": 20,
-    "accuracy": 95,
-    "accempt": false,
-    "enchant": {
-      "accuracy": 5
-    },
-    "element": "Water",
-    "type": "Attack",
-    "desc": "A very powerful Water attack",
-    "enchant_desc": "+5% Accuracy"
   },
   {
     "id": 1016,
@@ -9444,6 +9444,19 @@
     "times": 2
   },
   {
+    "id": 640,
+    "name": "Blighted Stinging Shot",
+    "ap": 13,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "An average Physical attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 641,
     "name": "Blighted Lightning Barb",
     "ap": 33,
@@ -9461,19 +9474,6 @@
         "type": "Paralyze"
       }
     ]
-  },
-  {
-    "id": 640,
-    "name": "Blighted Stinging Shot",
-    "ap": 13,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "An average Physical attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1263,
@@ -9862,19 +9862,6 @@
     ]
   },
   {
-    "id": 706,
-    "name": "Dark Matchsticks",
-    "ap": 12,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Fire",
-    "type": "Attack",
-    "desc": "An average Fire attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 707,
     "name": "Dark Needle Rifle",
     "ap": 13,
@@ -9896,6 +9883,19 @@
         "target": "Self"
       }
     ]
+  },
+  {
+    "id": 706,
+    "name": "Dark Matchsticks",
+    "ap": 12,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Fire",
+    "type": "Attack",
+    "desc": "An average Fire attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 708,
@@ -9932,19 +9932,6 @@
     ]
   },
   {
-    "id": 714,
-    "name": "Dark Fin Slosh",
-    "ap": 12,
-    "accempt": false,
-    "enchant": {
-      "ap": 3
-    },
-    "element": "Water",
-    "type": "Attack",
-    "desc": "An average Water attack",
-    "enchant_desc": "+3 Attack Power"
-  },
-  {
     "id": 715,
     "name": "Dark Quack Attack",
     "ap": 30,
@@ -9961,6 +9948,19 @@
         "type": "SwitchCurse"
       }
     ]
+  },
+  {
+    "id": 714,
+    "name": "Dark Fin Slosh",
+    "ap": 12,
+    "accempt": false,
+    "enchant": {
+      "ap": 3
+    },
+    "element": "Water",
+    "type": "Attack",
+    "desc": "An average Water attack",
+    "enchant_desc": "+3 Attack Power"
   },
   {
     "id": 710,
@@ -10207,40 +10207,6 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
-    "id": 770,
-    "name": "Slime Winds",
-    "ap": 30,
-    "accuracy": 95,
-    "accempt": false,
-    "enchant": {
-      "accuracy": 5
-    },
-    "element": "Wind",
-    "type": "Attack",
-    "desc": "A more than massively powerful Wind attack that lowers your foe's Accuracy by 10%",
-    "enchant_desc": "+5% Accuracy",
-    "additional": [
-      {
-        "keys": ["acc"],
-        "type": "Buff",
-        "ap": -10
-      }
-    ]
-  },
-  {
-    "id": 768,
-    "name": "Light Gunky Gust",
-    "ap": 11,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Wind",
-    "type": "Attack",
-    "desc": "An average Wind attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 769,
     "name": "Cyclone Of Lights",
     "ap": 10,
@@ -10260,6 +10226,40 @@
         "type": "Buff",
         "ap": 10,
         "target": "Self"
+      }
+    ]
+  },
+  {
+    "id": 768,
+    "name": "Light Gunky Gust",
+    "ap": 11,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Wind",
+    "type": "Attack",
+    "desc": "An average Wind attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
+    "id": 770,
+    "name": "Slime Winds",
+    "ap": 30,
+    "accuracy": 95,
+    "accempt": false,
+    "enchant": {
+      "accuracy": 5
+    },
+    "element": "Wind",
+    "type": "Attack",
+    "desc": "A more than massively powerful Wind attack that lowers your foe's Accuracy by 10%",
+    "enchant_desc": "+5% Accuracy",
+    "additional": [
+      {
+        "keys": ["acc"],
+        "type": "Buff",
+        "ap": -10
       }
     ]
   },
@@ -10406,6 +10406,19 @@
     "enchant_desc": "+3 Attack Power"
   },
   {
+    "id": 777,
+    "name": "Light Tap Dance",
+    "ap": 12,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Nature",
+    "type": "Attack",
+    "desc": "An average Nature attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 778,
     "name": "Light Terraform",
     "ap": 27,
@@ -10424,19 +10437,6 @@
         "ap": 9
       }
     ]
-  },
-  {
-    "id": 777,
-    "name": "Light Tap Dance",
-    "ap": 12,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Nature",
-    "type": "Attack",
-    "desc": "An average Nature attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 870,
@@ -11090,6 +11090,38 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
+    "id": 848,
+    "name": "Penalty Shot",
+    "ap": 11,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Earth",
+    "type": "Attack",
+    "desc": "An average Earth attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
+    "id": 849,
+    "name": "Golden Goal",
+    "ap": 30,
+    "accempt": false,
+    "enchant": {
+      "ap": 3
+    },
+    "element": "Earth",
+    "type": "Attack",
+    "desc": "A more than massively powerful Earth attack that provides 12 Block",
+    "enchant_desc": "+3 Attack Power",
+    "additional": [
+      {
+        "type": "Block",
+        "ap": 12
+      }
+    ]
+  },
+  {
     "id": 850,
     "name": "Offside",
     "ap": 27,
@@ -11128,38 +11160,6 @@
     "cooldown": 5
   },
   {
-    "id": 848,
-    "name": "Penalty Shot",
-    "ap": 11,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Earth",
-    "type": "Attack",
-    "desc": "An average Earth attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
-    "id": 849,
-    "name": "Golden Goal",
-    "ap": 30,
-    "accempt": false,
-    "enchant": {
-      "ap": 3
-    },
-    "element": "Earth",
-    "type": "Attack",
-    "desc": "A more than massively powerful Earth attack that provides 12 Block",
-    "enchant_desc": "+3 Attack Power",
-    "additional": [
-      {
-        "type": "Block",
-        "ap": 12
-      }
-    ]
-  },
-  {
     "id": 1034,
     "name": "Dark Lightning Orbs",
     "ap": 11,
@@ -11171,6 +11171,24 @@
     "type": "Attack",
     "desc": "An average Lightning attack",
     "enchant_desc": "+2 Attack Power"
+  },
+  {
+    "id": 867,
+    "name": "Dark Leech Drain",
+    "ap": 26,
+    "accempt": false,
+    "enchant": {
+      "ap": 4
+    },
+    "element": "Lightning",
+    "type": "Attack",
+    "desc": "A massively powerful Lightning attack that inflicts Anti-heal for 3 turns",
+    "enchant_desc": "+4 Attack Power",
+    "additional": [
+      {
+        "type": "Antiheal"
+      }
+    ]
   },
   {
     "id": 868,
@@ -11192,24 +11210,6 @@
       }
     ],
     "cooldown": -1
-  },
-  {
-    "id": 867,
-    "name": "Dark Leech Drain",
-    "ap": 26,
-    "accempt": false,
-    "enchant": {
-      "ap": 4
-    },
-    "element": "Lightning",
-    "type": "Attack",
-    "desc": "A massively powerful Lightning attack that inflicts Anti-heal for 3 turns",
-    "enchant_desc": "+4 Attack Power",
-    "additional": [
-      {
-        "type": "Antiheal"
-      }
-    ]
   },
   {
     "id": 1035,
@@ -11431,6 +11431,19 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
+    "id": 893,
+    "name": "Dark Dirt Claw",
+    "ap": 11,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Nature",
+    "type": "Attack",
+    "desc": "An average Nature attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 894,
     "name": "Dark Smackdown",
     "ap": 26,
@@ -11447,19 +11460,6 @@
         "type": "SwitchCurse"
       }
     ]
-  },
-  {
-    "id": 893,
-    "name": "Dark Dirt Claw",
-    "ap": 11,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Nature",
-    "type": "Attack",
-    "desc": "An average Nature attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 896,
@@ -11582,6 +11582,26 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
+    "id": 952,
+    "name": "Dark Super Sting",
+    "ap": 15,
+    "accempt": false,
+    "enchant": {
+      "ap": 1
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "A powerful Physical attack that hits 2 times that Paralyzes foe for 2 turns. 2 turns cooldown",
+    "enchant_desc": "+1 Attack Power",
+    "times": 2,
+    "additional": [
+      {
+        "type": "Paralyze"
+      }
+    ],
+    "cooldown": 2
+  },
+  {
     "id": 953,
     "name": "Radiating Lights",
     "ap": -40,
@@ -11602,26 +11622,6 @@
     "enchant_desc": "Replenishes 5 Health",
     "keys": ["acc"],
     "cooldown": -1
-  },
-  {
-    "id": 952,
-    "name": "Dark Super Sting",
-    "ap": 15,
-    "accempt": false,
-    "enchant": {
-      "ap": 1
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "A powerful Physical attack that hits 2 times that Paralyzes foe for 2 turns. 2 turns cooldown",
-    "enchant_desc": "+1 Attack Power",
-    "times": 2,
-    "additional": [
-      {
-        "type": "Paralyze"
-      }
-    ],
-    "cooldown": 2
   },
   {
     "id": 961,
@@ -11692,6 +11692,25 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
+    "id": 966,
+    "name": "Dadaism",
+    "ap": 13,
+    "accempt": false,
+    "enchant": {
+      "additional": [
+        {
+          "ap": 5,
+          "type": "Heal",
+          "target": "Self"
+        }
+      ]
+    },
+    "element": "Wind",
+    "type": "Attack",
+    "desc": "An average Wind attack",
+    "enchant_desc": "Replenishes 5 Health"
+  },
+  {
     "id": 967,
     "name": "Meditate",
     "ap": 10,
@@ -11715,6 +11734,25 @@
     ]
   },
   {
+    "id": 969,
+    "name": "Repaint",
+    "ap": 32,
+    "accuracy": 95,
+    "accempt": false,
+    "enchant": {
+      "accuracy": 5
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "A more than massively powerful Physical attack that Purges foe",
+    "enchant_desc": "+5% Accuracy",
+    "additional": [
+      {
+        "type": "Purge"
+      }
+    ]
+  },
+  {
     "id": 968,
     "name": "Fresco",
     "ap": 32,
@@ -11734,44 +11772,6 @@
       },
       {
         "type": "Cleanser"
-      }
-    ]
-  },
-  {
-    "id": 966,
-    "name": "Dadaism",
-    "ap": 13,
-    "accempt": false,
-    "enchant": {
-      "additional": [
-        {
-          "ap": 5,
-          "type": "Heal",
-          "target": "Self"
-        }
-      ]
-    },
-    "element": "Wind",
-    "type": "Attack",
-    "desc": "An average Wind attack",
-    "enchant_desc": "Replenishes 5 Health"
-  },
-  {
-    "id": 969,
-    "name": "Repaint",
-    "ap": 32,
-    "accuracy": 95,
-    "accempt": false,
-    "enchant": {
-      "accuracy": 5
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "A more than massively powerful Physical attack that Purges foe",
-    "enchant_desc": "+5% Accuracy",
-    "additional": [
-      {
-        "type": "Purge"
       }
     ]
   },
@@ -11967,6 +11967,19 @@
     ]
   },
   {
+    "id": 1072,
+    "name": "Dark Flash Blast",
+    "ap": 11,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Fire",
+    "type": "Attack",
+    "desc": "An average Fire attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 1073,
     "name": "Dark Bugferno",
     "ap": 31,
@@ -11984,19 +11997,6 @@
         "ap": 15
       }
     ]
-  },
-  {
-    "id": 1072,
-    "name": "Dark Flash Blast",
-    "ap": 11,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Fire",
-    "type": "Attack",
-    "desc": "An average Fire attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 987,
@@ -12031,6 +12031,26 @@
     ]
   },
   {
+    "id": 991,
+    "name": "Coal Crash",
+    "ap": 27,
+    "accuracy": 95,
+    "accempt": false,
+    "enchant": {
+      "accuracy": 5
+    },
+    "element": "Earth",
+    "type": "Attack",
+    "desc": "A massively powerful Earth attack that provides 10 Block",
+    "enchant_desc": "+5% Accuracy",
+    "additional": [
+      {
+        "type": "Block",
+        "ap": 10
+      }
+    ]
+  },
+  {
     "id": 990,
     "name": "Nice List",
     "ap": 5,
@@ -12050,26 +12070,6 @@
     "desc": "Grants Stats Surge, raising all your stats by 5",
     "enchant_desc": "Replenishes 5 Health",
     "keys": ["ea", "pa", "ed", "pd", "spd", "acc"]
-  },
-  {
-    "id": 991,
-    "name": "Coal Crash",
-    "ap": 27,
-    "accuracy": 95,
-    "accempt": false,
-    "enchant": {
-      "accuracy": 5
-    },
-    "element": "Earth",
-    "type": "Attack",
-    "desc": "A massively powerful Earth attack that provides 10 Block",
-    "enchant_desc": "+5% Accuracy",
-    "additional": [
-      {
-        "type": "Block",
-        "ap": 10
-      }
-    ]
   },
   {
     "id": 988,
@@ -12590,19 +12590,6 @@
     "turns": 3
   },
   {
-    "id": 1092,
-    "name": "Torrid",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Fire",
-    "type": "Attack",
-    "desc": "An average Fire attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 1095,
     "name": "Rawr",
     "ap": 27,
@@ -12621,6 +12608,19 @@
     ]
   },
   {
+    "id": 1092,
+    "name": "Torrid",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Fire",
+    "type": "Attack",
+    "desc": "An average Fire attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 1093,
     "name": "Fist Pump",
     "ap": 10,
@@ -12634,19 +12634,6 @@
     "desc": "Raises your Physical Attack by 10",
     "enchant_desc": "+2 to Buff",
     "keys": ["pa"]
-  },
-  {
-    "id": 1096,
-    "name": "Welding Flame",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Fire",
-    "type": "Attack",
-    "desc": "An average Fire attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1097,
@@ -12665,6 +12652,19 @@
         "type": "Heal"
       }
     ]
+  },
+  {
+    "id": 1096,
+    "name": "Welding Flame",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Fire",
+    "type": "Attack",
+    "desc": "An average Fire attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1099,
@@ -12704,19 +12704,6 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
-    "id": 1100,
-    "name": "Char Hail",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Nature",
-    "type": "Attack",
-    "desc": "An average Nature attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 1101,
     "name": "Claw Carnage",
     "ap": 28,
@@ -12734,6 +12721,32 @@
         "ap": 7
       }
     ]
+  },
+  {
+    "id": 1100,
+    "name": "Char Hail",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Nature",
+    "type": "Attack",
+    "desc": "An average Nature attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
+    "id": 1102,
+    "name": "Whooshing Leaves",
+    "ap": 11,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Nature",
+    "type": "Attack",
+    "desc": "An average Nature attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1103,
@@ -12769,19 +12782,6 @@
     "desc": "Inflicts Physical damage over 4 turns",
     "enchant_desc": "+10% Accuracy",
     "turns": 4
-  },
-  {
-    "id": 1102,
-    "name": "Whooshing Leaves",
-    "ap": 11,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Nature",
-    "type": "Attack",
-    "desc": "An average Nature attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1105,
@@ -12832,26 +12832,6 @@
     ]
   },
   {
-    "id": 1107,
-    "name": "Erupting Flames",
-    "ap": 7,
-    "accempt": false,
-    "enchant": {
-      "ap": 1
-    },
-    "element": "Fire",
-    "type": "Attack",
-    "desc": "A simple Fire attack with an additional 8 AP Physical attack",
-    "enchant_desc": "+1 Attack Power",
-    "additional": [
-      {
-        "type": "Attack",
-        "element": "Physical",
-        "ap": 8
-      }
-    ]
-  },
-  {
     "id": 1109,
     "name": "Fiery Smackdown",
     "ap": 13,
@@ -12869,6 +12849,26 @@
         "type": "Attack",
         "element": "Physical",
         "ap": 15
+      }
+    ]
+  },
+  {
+    "id": 1107,
+    "name": "Erupting Flames",
+    "ap": 7,
+    "accempt": false,
+    "enchant": {
+      "ap": 1
+    },
+    "element": "Fire",
+    "type": "Attack",
+    "desc": "A simple Fire attack with an additional 8 AP Physical attack",
+    "enchant_desc": "+1 Attack Power",
+    "additional": [
+      {
+        "type": "Attack",
+        "element": "Physical",
+        "ap": 8
       }
     ]
   },
@@ -13050,19 +13050,6 @@
     ]
   },
   {
-    "id": 1120,
-    "name": "Terrain Twister",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 3
-    },
-    "element": "Earth",
-    "type": "Attack",
-    "desc": "An average Earth attack",
-    "enchant_desc": "+3 Attack Power"
-  },
-  {
     "id": 1121,
     "name": "Draconic Radiance",
     "ap": 28,
@@ -13079,6 +13066,19 @@
         "type": "Hot"
       }
     ]
+  },
+  {
+    "id": 1120,
+    "name": "Terrain Twister",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 3
+    },
+    "element": "Earth",
+    "type": "Attack",
+    "desc": "An average Earth attack",
+    "enchant_desc": "+3 Attack Power"
   },
   {
     "id": 1123,
@@ -13144,26 +13144,6 @@
     ]
   },
   {
-    "id": 1126,
-    "name": "Vital Siphon",
-    "ap": 25,
-    "accempt": false,
-    "enchant": {
-      "ap": 3
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "A massively powerful Physical attack that steals 8 Physical Defense from foe",
-    "enchant_desc": "+3 Attack Power",
-    "additional": [
-      {
-        "keys": ["pd"],
-        "type": "StatSteal",
-        "ap": 8
-      }
-    ]
-  },
-  {
     "id": 1124,
     "name": "Poison Drain",
     "ap": 6,
@@ -13184,6 +13164,26 @@
     ]
   },
   {
+    "id": 1126,
+    "name": "Vital Siphon",
+    "ap": 25,
+    "accempt": false,
+    "enchant": {
+      "ap": 3
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "A massively powerful Physical attack that steals 8 Physical Defense from foe",
+    "enchant_desc": "+3 Attack Power",
+    "additional": [
+      {
+        "keys": ["pd"],
+        "type": "StatSteal",
+        "ap": 8
+      }
+    ]
+  },
+  {
     "id": 1128,
     "name": "Fungal Growth",
     "ap": 6,
@@ -13197,6 +13197,19 @@
     "desc": "A move that heals for 7 turns in a row",
     "enchant_desc": "+1 Heal",
     "turns": 7
+  },
+  {
+    "id": 1127,
+    "name": "Shroom Splash",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Water",
+    "type": "Attack",
+    "desc": "An average Water attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1129,
@@ -13215,19 +13228,6 @@
         "type": "Purge"
       }
     ]
-  },
-  {
-    "id": 1127,
-    "name": "Shroom Splash",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Water",
-    "type": "Attack",
-    "desc": "An average Water attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1130,
@@ -13453,21 +13453,6 @@
     "keys": ["acc"]
   },
   {
-    "id": 1141,
-    "name": "Ultra Armor",
-    "ap": 13,
-    "accempt": false,
-    "enchant": {
-      "ap": 3
-    },
-    "element": "Misc",
-    "type": "Buff",
-    "target": "Self",
-    "desc": "Raises your Physical Defense by 13",
-    "enchant_desc": "+3 to Buff",
-    "keys": ["pd"]
-  },
-  {
     "id": 1140,
     "name": "Photon Flare",
     "ap": 11,
@@ -13487,6 +13472,21 @@
     "type": "Attack",
     "desc": "An average Lightning attack",
     "enchant_desc": "+30% chance to Debuff Accuracy"
+  },
+  {
+    "id": 1141,
+    "name": "Ultra Armor",
+    "ap": 13,
+    "accempt": false,
+    "enchant": {
+      "ap": 3
+    },
+    "element": "Misc",
+    "type": "Buff",
+    "target": "Self",
+    "desc": "Raises your Physical Defense by 13",
+    "enchant_desc": "+3 to Buff",
+    "keys": ["pd"]
   },
   {
     "id": 1195,
@@ -13549,6 +13549,19 @@
     "cooldown": -1
   },
   {
+    "id": 1143,
+    "name": "Cerebolt",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Lightning",
+    "type": "Attack",
+    "desc": "An average Lightning attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 1145,
     "name": "Mind Meld",
     "ap": 25,
@@ -13567,19 +13580,6 @@
         "ap": -8
       }
     ]
-  },
-  {
-    "id": 1143,
-    "name": "Cerebolt",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Lightning",
-    "type": "Attack",
-    "desc": "An average Lightning attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1146,
@@ -13937,6 +13937,24 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
+    "id": 1167,
+    "name": "Subsuming Blaze",
+    "ap": 25,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Fire",
+    "type": "Attack",
+    "desc": "A massively powerful Fire attack that grants 8 healing for 2 turns",
+    "enchant_desc": "+2 Attack Power",
+    "additional": [
+      {
+        "type": "Hot"
+      }
+    ]
+  },
+  {
     "id": 1165,
     "name": "Magma Blast",
     "ap": 5,
@@ -13974,22 +13992,17 @@
     "keys": ["ed", "pd"]
   },
   {
-    "id": 1167,
-    "name": "Subsuming Blaze",
-    "ap": 25,
+    "id": 1168,
+    "name": "Firelighter",
+    "ap": 10,
     "accempt": false,
     "enchant": {
       "ap": 2
     },
     "element": "Fire",
     "type": "Attack",
-    "desc": "A massively powerful Fire attack that grants 8 healing for 2 turns",
-    "enchant_desc": "+2 Attack Power",
-    "additional": [
-      {
-        "type": "Hot"
-      }
-    ]
+    "desc": "An average Fire attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1169,
@@ -14009,19 +14022,6 @@
         "ap": 9
       }
     ]
-  },
-  {
-    "id": 1168,
-    "name": "Firelighter",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Fire",
-    "type": "Attack",
-    "desc": "An average Fire attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1170,
@@ -14157,19 +14157,6 @@
     ]
   },
   {
-    "id": 1177,
-    "name": "Stony Eclipse",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Earth",
-    "type": "Attack",
-    "desc": "An average Earth attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 1178,
     "name": "Crater",
     "ap": 29,
@@ -14188,25 +14175,17 @@
     ]
   },
   {
-    "id": 1181,
-    "name": "Painful Glare",
-    "ap": 16,
-    "accuracy": 90,
+    "id": 1177,
+    "name": "Stony Eclipse",
+    "ap": 10,
     "accempt": false,
     "enchant": {
-      "accuracy": 10
+      "ap": 2
     },
-    "element": "Physical",
-    "type": "Dot",
-    "desc": "Inflicts Physical damage over 2 turns and Purges foe. 3 turns cooldown",
-    "enchant_desc": "+10% Accuracy",
-    "turns": 2,
-    "additional": [
-      {
-        "type": "Purge"
-      }
-    ],
-    "cooldown": 3
+    "element": "Earth",
+    "type": "Attack",
+    "desc": "An average Earth attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1179,
@@ -14228,6 +14207,27 @@
     "type": "Attack",
     "desc": "An average Earth attack",
     "enchant_desc": "+40% chance of Stats Surge"
+  },
+  {
+    "id": 1181,
+    "name": "Painful Glare",
+    "ap": 16,
+    "accuracy": 90,
+    "accempt": false,
+    "enchant": {
+      "accuracy": 10
+    },
+    "element": "Physical",
+    "type": "Dot",
+    "desc": "Inflicts Physical damage over 2 turns and Purges foe. 3 turns cooldown",
+    "enchant_desc": "+10% Accuracy",
+    "turns": 2,
+    "additional": [
+      {
+        "type": "Purge"
+      }
+    ],
+    "cooldown": 3
   },
   {
     "id": 1180,
@@ -14255,6 +14255,25 @@
     "max_uses": 2
   },
   {
+    "id": 1182,
+    "name": "Contained Crush",
+    "ap": 31,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Earth",
+    "type": "Attack",
+    "desc": "A more than massively powerful Earth attack that steals 10 HP from foe",
+    "enchant_desc": "+2 Attack Power",
+    "additional": [
+      {
+        "type": "LifeSteal",
+        "ap": 10
+      }
+    ]
+  },
+  {
     "id": 1183,
     "name": "Meteor Storm",
     "ap": 8,
@@ -14273,25 +14292,6 @@
         "element": "Physical",
         "ap": 10,
         "accuracy": 75
-      }
-    ]
-  },
-  {
-    "id": 1182,
-    "name": "Contained Crush",
-    "ap": 31,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Earth",
-    "type": "Attack",
-    "desc": "A more than massively powerful Earth attack that steals 10 HP from foe",
-    "enchant_desc": "+2 Attack Power",
-    "additional": [
-      {
-        "type": "LifeSteal",
-        "ap": 10
       }
     ]
   },
@@ -14450,6 +14450,24 @@
     ]
   },
   {
+    "id": 1193,
+    "name": "Reboot Beam",
+    "ap": 5,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Nature",
+    "type": "Attack",
+    "desc": "A simple Nature attack that Purges foe",
+    "enchant_desc": "+2 Attack Power",
+    "additional": [
+      {
+        "type": "Purge"
+      }
+    ]
+  },
+  {
     "id": 1194,
     "name": "Supersonic Sting",
     "ap": 28,
@@ -14467,24 +14485,6 @@
         "type": "Buff",
         "ap": 15,
         "target": "Self"
-      }
-    ]
-  },
-  {
-    "id": 1193,
-    "name": "Reboot Beam",
-    "ap": 5,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Nature",
-    "type": "Attack",
-    "desc": "A simple Nature attack that Purges foe",
-    "enchant_desc": "+2 Attack Power",
-    "additional": [
-      {
-        "type": "Purge"
       }
     ]
   },
@@ -14784,27 +14784,6 @@
     ]
   },
   {
-    "id": 1220,
-    "name": "Mud Plaster",
-    "ap": 28,
-    "accempt": false,
-    "enchant": {
-      "ap": 4
-    },
-    "element": "Earth",
-    "type": "Attack",
-    "desc": "A massively powerful Earth attack that raises your Attacks and Defenses by 7",
-    "enchant_desc": "+4 Attack Power",
-    "additional": [
-      {
-        "keys": ["ea", "pa", "ed", "pd"],
-        "type": "Buff",
-        "ap": 7,
-        "target": "Self"
-      }
-    ]
-  },
-  {
     "id": 1218,
     "name": "Gem Mash",
     "ap": 10,
@@ -14838,6 +14817,27 @@
     ]
   },
   {
+    "id": 1220,
+    "name": "Mud Plaster",
+    "ap": 28,
+    "accempt": false,
+    "enchant": {
+      "ap": 4
+    },
+    "element": "Earth",
+    "type": "Attack",
+    "desc": "A massively powerful Earth attack that raises your Attacks and Defenses by 7",
+    "enchant_desc": "+4 Attack Power",
+    "additional": [
+      {
+        "keys": ["ea", "pa", "ed", "pd"],
+        "type": "Buff",
+        "ap": 7,
+        "target": "Self"
+      }
+    ]
+  },
+  {
     "id": 1221,
     "name": "Ocular Abrasion",
     "ap": 8,
@@ -14859,25 +14859,6 @@
     ]
   },
   {
-    "id": 1223,
-    "name": "Emboldening Excision",
-    "ap": 35,
-    "accempt": false,
-    "enchant": {
-      "ap": 5
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "An extremely powerful Physical attack that grants Ethereal for 2 turns. 2 turns cooldown",
-    "enchant_desc": "+5 Attack Power",
-    "additional": [
-      {
-        "type": "Ethereal"
-      }
-    ],
-    "cooldown": 2
-  },
-  {
     "id": 1222,
     "name": "Wicked Blow",
     "ap": 45,
@@ -14897,6 +14878,25 @@
       }
     ],
     "true_dmg": true
+  },
+  {
+    "id": 1223,
+    "name": "Emboldening Excision",
+    "ap": 35,
+    "accempt": false,
+    "enchant": {
+      "ap": 5
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "An extremely powerful Physical attack that grants Ethereal for 2 turns. 2 turns cooldown",
+    "enchant_desc": "+5 Attack Power",
+    "additional": [
+      {
+        "type": "Ethereal"
+      }
+    ],
+    "cooldown": 2
   },
   {
     "id": 1224,
@@ -15089,6 +15089,27 @@
     "cooldown": 2
   },
   {
+    "id": 1236,
+    "name": "Grimm Lightning Barb",
+    "ap": 27,
+    "accempt": false,
+    "enchant": {
+      "ap": 4
+    },
+    "element": "Lightning",
+    "type": "Attack",
+    "desc": "A massively powerful Lightning attack that inflicts Bleed for 4 turns and provides Barbed (1 stack)",
+    "enchant_desc": "+4 Attack Power",
+    "additional": [
+      {
+        "type": "Bleed"
+      },
+      {
+        "type": "Barbed"
+      }
+    ]
+  },
+  {
     "id": 1235,
     "name": "Grimm Stinging Shock",
     "ap": 12,
@@ -15109,27 +15130,6 @@
     "type": "Attack",
     "desc": "An average Lightning attack",
     "enchant_desc": "+20% chance of Stats Chaos"
-  },
-  {
-    "id": 1236,
-    "name": "Grimm Lightning Barb",
-    "ap": 27,
-    "accempt": false,
-    "enchant": {
-      "ap": 4
-    },
-    "element": "Lightning",
-    "type": "Attack",
-    "desc": "A massively powerful Lightning attack that inflicts Bleed for 4 turns and provides Barbed (1 stack)",
-    "enchant_desc": "+4 Attack Power",
-    "additional": [
-      {
-        "type": "Bleed"
-      },
-      {
-        "type": "Barbed"
-      }
-    ]
   },
   {
     "id": 1237,
@@ -15305,19 +15305,6 @@
     "turns": 4
   },
   {
-    "id": 1252,
-    "name": "Sudden Smack",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "An average Physical attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 1253,
     "name": "Befuddle",
     "accuracy": 170,
@@ -15344,6 +15331,19 @@
       }
     ],
     "cooldown": -1
+  },
+  {
+    "id": 1252,
+    "name": "Sudden Smack",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "An average Physical attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1254,
@@ -15557,27 +15557,6 @@
     ]
   },
   {
-    "id": 1271,
-    "name": "Precision Bolt",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "additional": [
-        {
-          "ap": 10,
-          "keys": ["acc"],
-          "type": "Buff",
-          "target": "Self",
-          "accuracy": 50
-        }
-      ]
-    },
-    "element": "Lightning",
-    "type": "Attack",
-    "desc": "An average Lightning attack",
-    "enchant_desc": "+50% chance to Buff Accuracy"
-  },
-  {
     "id": 1272,
     "name": "Merlin's Dream",
     "accuracy": 170,
@@ -15606,6 +15585,27 @@
     ],
     "cooldown": -1,
     "immunity": 4
+  },
+  {
+    "id": 1271,
+    "name": "Precision Bolt",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "additional": [
+        {
+          "ap": 10,
+          "keys": ["acc"],
+          "type": "Buff",
+          "target": "Self",
+          "accuracy": 50
+        }
+      ]
+    },
+    "element": "Lightning",
+    "type": "Attack",
+    "desc": "An average Lightning attack",
+    "enchant_desc": "+50% chance to Buff Accuracy"
   },
   {
     "id": 1273,
@@ -15756,6 +15756,30 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
+    "id": 1278,
+    "name": "Shock Absorption",
+    "ap": 30,
+    "accuracy": 95,
+    "accempt": false,
+    "enchant": {
+      "accuracy": 5
+    },
+    "element": "Lightning",
+    "type": "Attack",
+    "desc": "A more than massively powerful Lightning attack that steals 10 Physical Defense from foe and heals yourself by 10 HP",
+    "enchant_desc": "+5% Accuracy",
+    "additional": [
+      {
+        "keys": ["pd"],
+        "type": "StatSteal",
+        "ap": 10
+      },
+      {
+        "type": "Heal"
+      }
+    ]
+  },
+  {
     "id": 1279,
     "name": "Energized Clobber",
     "ap": 30,
@@ -15780,9 +15804,9 @@
     ]
   },
   {
-    "id": 1278,
-    "name": "Shock Absorption",
-    "ap": 30,
+    "id": 1282,
+    "name": "Taglock",
+    "ap": 20,
     "accuracy": 95,
     "accempt": false,
     "enchant": {
@@ -15790,16 +15814,13 @@
     },
     "element": "Lightning",
     "type": "Attack",
-    "desc": "A more than massively powerful Lightning attack that steals 10 Physical Defense from foe and heals yourself by 10 HP",
+    "desc": "A very powerful Lightning attack that lowers the user's Speed by 200",
     "enchant_desc": "+5% Accuracy",
     "additional": [
       {
-        "keys": ["pd"],
-        "type": "StatSteal",
-        "ap": 10
-      },
-      {
-        "type": "Heal"
+        "keys": ["spd"],
+        "type": "Buff",
+        "ap": -200
       }
     ]
   },
@@ -15829,27 +15850,6 @@
     ],
     "cooldown": -1,
     "immunity": 4
-  },
-  {
-    "id": 1282,
-    "name": "Taglock",
-    "ap": 20,
-    "accuracy": 95,
-    "accempt": false,
-    "enchant": {
-      "accuracy": 5
-    },
-    "element": "Lightning",
-    "type": "Attack",
-    "desc": "A very powerful Lightning attack that lowers the user's Speed by 200",
-    "enchant_desc": "+5% Accuracy",
-    "additional": [
-      {
-        "keys": ["spd"],
-        "type": "Buff",
-        "ap": -200
-      }
-    ]
   },
   {
     "id": 1280,
@@ -15928,20 +15928,6 @@
     ]
   },
   {
-    "id": 1285,
-    "name": "Vine Lash",
-    "ap": 3,
-    "accempt": false,
-    "enchant": {
-      "times": 1
-    },
-    "element": "Nature",
-    "type": "Attack",
-    "desc": "A simple Nature attack that hits 3 times",
-    "enchant_desc": "+1 Repeat",
-    "times": 3
-  },
-  {
     "id": 1286,
     "name": "Beating Wings",
     "ap": 25,
@@ -15962,6 +15948,20 @@
         "type": "Heal"
       }
     ]
+  },
+  {
+    "id": 1285,
+    "name": "Vine Lash",
+    "ap": 3,
+    "accempt": false,
+    "enchant": {
+      "times": 1
+    },
+    "element": "Nature",
+    "type": "Attack",
+    "desc": "A simple Nature attack that hits 3 times",
+    "enchant_desc": "+1 Repeat",
+    "times": 3
   },
   {
     "id": 1287,
@@ -16070,19 +16070,6 @@
     ]
   },
   {
-    "id": 1293,
-    "name": "Tail Spikes",
-    "ap": 11,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "An average Physical attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 1294,
     "name": "Spikes",
     "ap": 10,
@@ -16116,6 +16103,19 @@
         "ap": 11
       }
     ]
+  },
+  {
+    "id": 1293,
+    "name": "Tail Spikes",
+    "ap": 11,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "An average Physical attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1297,
@@ -16204,6 +16204,20 @@
     ]
   },
   {
+    "id": 1300,
+    "name": "Root Rash",
+    "ap": 5,
+    "accempt": false,
+    "enchant": {
+      "ap": 1
+    },
+    "element": "Physical",
+    "type": "Dot",
+    "desc": "Inflicts Physical damage over 3 turns",
+    "enchant_desc": "+1 Attack Power",
+    "turns": 3
+  },
+  {
     "id": 1301,
     "name": "Trunk Tusks",
     "ap": 25,
@@ -16220,20 +16234,6 @@
         "type": "Barbed"
       }
     ]
-  },
-  {
-    "id": 1300,
-    "name": "Root Rash",
-    "ap": 5,
-    "accempt": false,
-    "enchant": {
-      "ap": 1
-    },
-    "element": "Physical",
-    "type": "Dot",
-    "desc": "Inflicts Physical damage over 3 turns",
-    "enchant_desc": "+1 Attack Power",
-    "turns": 3
   },
   {
     "id": 1302,
@@ -16378,6 +16378,19 @@
     ]
   },
   {
+    "id": 1291,
+    "name": "Sickly Sweet",
+    "ap": 11,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Nature",
+    "type": "Attack",
+    "desc": "An average Nature attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 1292,
     "name": "Feed",
     "ap": 27,
@@ -16398,19 +16411,6 @@
         "type": "Hot"
       }
     ]
-  },
-  {
-    "id": 1291,
-    "name": "Sickly Sweet",
-    "ap": 11,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Nature",
-    "type": "Attack",
-    "desc": "An average Nature attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1312,
@@ -16542,19 +16542,6 @@
     ]
   },
   {
-    "id": 1318,
-    "name": "Hot Spot",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Fire",
-    "type": "Attack",
-    "desc": "An average Fire attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 1319,
     "name": "Flame Ball",
     "ap": 25,
@@ -16572,6 +16559,19 @@
         "ap": 5
       }
     ]
+  },
+  {
+    "id": 1318,
+    "name": "Hot Spot",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Fire",
+    "type": "Attack",
+    "desc": "An average Fire attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1320,
@@ -16756,6 +16756,19 @@
     ]
   },
   {
+    "id": 1329,
+    "name": "Flipper Smack",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "An average Physical attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
     "id": 1330,
     "name": "Body Slam",
     "ap": 25,
@@ -16776,17 +16789,23 @@
     ]
   },
   {
-    "id": 1329,
-    "name": "Flipper Smack",
-    "ap": 10,
+    "id": 1332,
+    "name": "Tentadrool",
+    "ap": 25,
     "accempt": false,
     "enchant": {
-      "ap": 2
+      "ap": 6
     },
     "element": "Physical",
     "type": "Attack",
-    "desc": "An average Physical attack",
-    "enchant_desc": "+2 Attack Power"
+    "desc": "A massively powerful Physical attack that inflicts 5 AP Disease for 2 turns",
+    "enchant_desc": "+6 Attack Power",
+    "additional": [
+      {
+        "type": "Disease",
+        "ap": 5
+      }
+    ]
   },
   {
     "id": 1331,
@@ -16808,25 +16827,6 @@
     "type": "Attack",
     "desc": "An average Water attack",
     "enchant_desc": "+30% chance to Poison for 3 turns"
-  },
-  {
-    "id": 1332,
-    "name": "Tentadrool",
-    "ap": 25,
-    "accempt": false,
-    "enchant": {
-      "ap": 6
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "A massively powerful Physical attack that inflicts 5 AP Disease for 2 turns",
-    "enchant_desc": "+6 Attack Power",
-    "additional": [
-      {
-        "type": "Disease",
-        "ap": 5
-      }
-    ]
   },
   {
     "id": 1333,
@@ -16864,26 +16864,6 @@
     ]
   },
   {
-    "id": 1336,
-    "name": "Oversow",
-    "ap": 25,
-    "accempt": false,
-    "enchant": {
-      "ap": 5
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "A massively powerful Physical attack that inflicts 6 AP Nature DoT for 3 turns",
-    "enchant_desc": "+5 Attack Power",
-    "additional": [
-      {
-        "type": "Dot",
-        "element": "Nature",
-        "ap": 6
-      }
-    ]
-  },
-  {
     "id": 1335,
     "name": "Prickle",
     "ap": 10,
@@ -16903,6 +16883,26 @@
     "type": "Attack",
     "desc": "An average Physical attack",
     "enchant_desc": "+30% chance for Barbed"
+  },
+  {
+    "id": 1336,
+    "name": "Oversow",
+    "ap": 25,
+    "accempt": false,
+    "enchant": {
+      "ap": 5
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "A massively powerful Physical attack that inflicts 6 AP Nature DoT for 3 turns",
+    "enchant_desc": "+5 Attack Power",
+    "additional": [
+      {
+        "type": "Dot",
+        "element": "Nature",
+        "ap": 6
+      }
+    ]
   },
   {
     "id": 1338,
@@ -17203,28 +17203,6 @@
     "enchant_desc": "+2 Attack Power"
   },
   {
-    "id": 1371,
-    "name": "Dark Explosion",
-    "ap": 37,
-    "accempt": false,
-    "enchant": {
-      "accuracy": 10
-    },
-    "element": "Fire",
-    "type": "Attack",
-    "desc": "An extremely powerful Fire attack that lowers your foe's Accuracy by 10%",
-    "enchant_desc": "+10% Accuracy",
-    "additional": [
-      {
-        "keys": ["acc"],
-        "type": "Buff",
-        "ap": -10
-      }
-    ],
-    "cooldown": 1,
-    "max_uses": 3
-  },
-  {
     "id": 1370,
     "name": "Implosion",
     "ap": 25,
@@ -17249,6 +17227,28 @@
       }
     ],
     "cooldown": -1
+  },
+  {
+    "id": 1371,
+    "name": "Dark Explosion",
+    "ap": 37,
+    "accempt": false,
+    "enchant": {
+      "accuracy": 10
+    },
+    "element": "Fire",
+    "type": "Attack",
+    "desc": "An extremely powerful Fire attack that lowers your foe's Accuracy by 10%",
+    "enchant_desc": "+10% Accuracy",
+    "additional": [
+      {
+        "keys": ["acc"],
+        "type": "Buff",
+        "ap": -10
+      }
+    ],
+    "cooldown": 1,
+    "max_uses": 3
   },
   {
     "id": 1372,
@@ -17289,25 +17289,6 @@
     "keys": ["spd"]
   },
   {
-    "id": 1374,
-    "name": "Slice & Dice",
-    "ap": 15,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "A powerful Physical attack that hits 2 times and inflicts Bleed for 4 turns",
-    "enchant_desc": "+2 Attack Power",
-    "times": 2,
-    "additional": [
-      {
-        "type": "Bleed"
-      }
-    ]
-  },
-  {
     "id": 1375,
     "name": "Guard Breaker",
     "ap": 30,
@@ -17324,6 +17305,25 @@
         "keys": ["ed", "pd"],
         "type": "Buff",
         "ap": -12
+      }
+    ]
+  },
+  {
+    "id": 1374,
+    "name": "Slice & Dice",
+    "ap": 15,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "A powerful Physical attack that hits 2 times and inflicts Bleed for 4 turns",
+    "enchant_desc": "+2 Attack Power",
+    "times": 2,
+    "additional": [
+      {
+        "type": "Bleed"
       }
     ]
   },
@@ -17396,19 +17396,6 @@
     ]
   },
   {
-    "id": 1380,
-    "name": "Dark Beak Buds",
-    "ap": 11,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Nature",
-    "type": "Attack",
-    "desc": "An average Nature attack",
-    "enchant_desc": "+2 Attack Power"
-  },
-  {
     "id": 1381,
     "name": "Dark Floral Fury",
     "ap": 10,
@@ -17424,6 +17411,40 @@
     "additional": [
       {
         "type": "Bleed"
+      }
+    ]
+  },
+  {
+    "id": 1380,
+    "name": "Dark Beak Buds",
+    "ap": 11,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Nature",
+    "type": "Attack",
+    "desc": "An average Nature attack",
+    "enchant_desc": "+2 Attack Power"
+  },
+  {
+    "id": 1383,
+    "name": "Wrath of Inunagi",
+    "ap": 8,
+    "accempt": false,
+    "enchant": {
+      "accuracy": 10
+    },
+    "element": "Water",
+    "type": "Dot",
+    "desc": "Inflicts 8 AP Water DoT and 8 AP Physical DoT for 2 turns",
+    "enchant_desc": "+10% Accuracy",
+    "turns": 2,
+    "additional": [
+      {
+        "type": "Dot",
+        "element": "Physical",
+        "ap": 8
       }
     ]
   },
@@ -17448,23 +17469,22 @@
     ]
   },
   {
-    "id": 1383,
-    "name": "Wrath of Inunagi",
-    "ap": 8,
+    "id": 1385,
+    "name": "Ounabara Whirlpool",
+    "ap": 30,
     "accempt": false,
     "enchant": {
-      "accuracy": 10
+      "ap": 3
     },
-    "element": "Water",
-    "type": "Dot",
-    "desc": "Inflicts 8 AP Water DoT and 8 AP Physical DoT for 2 turns",
-    "enchant_desc": "+10% Accuracy",
-    "turns": 2,
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "A more than massively powerful Physical attack that steals 7 Defenses from foe",
+    "enchant_desc": "+3 Attack Power",
     "additional": [
       {
-        "type": "Dot",
-        "element": "Physical",
-        "ap": 8
+        "keys": ["ed", "pd"],
+        "type": "StatSteal",
+        "ap": 7
       }
     ]
   },
@@ -17483,26 +17503,6 @@
     "additional": [
       {
         "type": "Heal"
-      }
-    ]
-  },
-  {
-    "id": 1385,
-    "name": "Ounabara Whirlpool",
-    "ap": 30,
-    "accempt": false,
-    "enchant": {
-      "ap": 3
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "A more than massively powerful Physical attack that steals 7 Defenses from foe",
-    "enchant_desc": "+3 Attack Power",
-    "additional": [
-      {
-        "keys": ["ed", "pd"],
-        "type": "StatSteal",
-        "ap": 7
       }
     ]
   },
@@ -17535,6 +17535,19 @@
     ],
     "keys": ["ea"],
     "cooldown": 3
+  },
+  {
+    "id": 1386,
+    "name": "Flaming Hearts",
+    "ap": 12,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Fire",
+    "type": "Attack",
+    "desc": "An average Fire attack",
+    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1388,
@@ -17576,19 +17589,6 @@
         "type": "CI"
       }
     ]
-  },
-  {
-    "id": 1386,
-    "name": "Flaming Hearts",
-    "ap": 12,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Fire",
-    "type": "Attack",
-    "desc": "An average Fire attack",
-    "enchant_desc": "+2 Attack Power"
   },
   {
     "id": 1390,
@@ -17730,24 +17730,6 @@
     ]
   },
   {
-    "id": 1398,
-    "name": "Dark Tentadrool",
-    "ap": 27,
-    "accempt": false,
-    "enchant": {
-      "ap": 5
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "A massively powerful Physical attack that inflicts Bleed for 5 turns",
-    "enchant_desc": "+5 Attack Power",
-    "additional": [
-      {
-        "type": "Bleed"
-      }
-    ]
-  },
-  {
     "id": 1397,
     "name": "Dark Blergh",
     "ap": 11,
@@ -17769,18 +17751,22 @@
     "enchant_desc": "+30% chance to Poison for 3 turns"
   },
   {
-    "id": 1399,
-    "name": "Severe Cap",
-    "ap": 6,
+    "id": 1398,
+    "name": "Dark Tentadrool",
+    "ap": 27,
     "accempt": false,
     "enchant": {
-      "ap": 1
+      "ap": 5
     },
     "element": "Physical",
     "type": "Attack",
-    "desc": "A simple Physical attack that hits 2 times",
-    "enchant_desc": "+1 Attack Power",
-    "times": 2
+    "desc": "A massively powerful Physical attack that inflicts Bleed for 5 turns",
+    "enchant_desc": "+5 Attack Power",
+    "additional": [
+      {
+        "type": "Bleed"
+      }
+    ]
   },
   {
     "id": 1400,
@@ -17804,6 +17790,20 @@
     ]
   },
   {
+    "id": 1399,
+    "name": "Severe Cap",
+    "ap": 6,
+    "accempt": false,
+    "enchant": {
+      "ap": 1
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "A simple Physical attack that hits 2 times",
+    "enchant_desc": "+1 Attack Power",
+    "times": 2
+  },
+  {
     "id": 1401,
     "name": "Fungal Plague",
     "ap": 27,
@@ -17819,6 +17819,45 @@
       {
         "type": "Disease",
         "ap": 6
+      }
+    ]
+  },
+  {
+    "id": 1403,
+    "name": "Sylvan Shield",
+    "ap": 10,
+    "accuracy": 90,
+    "accempt": false,
+    "enchant": {
+      "accuracy": 10
+    },
+    "element": "Misc",
+    "type": "Barbed",
+    "target": "Self",
+    "desc": "Applies 2 stacks of Barbed to the user and Paralyzes foe for 1 turn",
+    "enchant_desc": "+10% Accuracy",
+    "turns": 2,
+    "additional": [
+      {
+        "type": "Paralyze"
+      }
+    ]
+  },
+  {
+    "id": 1402,
+    "name": "Fairy Fire",
+    "ap": 10,
+    "accempt": false,
+    "enchant": {
+      "ap": 2
+    },
+    "element": "Nature",
+    "type": "Attack",
+    "desc": "An average Nature attack that grants Ethereal for 1 turn",
+    "enchant_desc": "+2 Attack Power",
+    "additional": [
+      {
+        "type": "Ethereal"
       }
     ]
   },
@@ -17845,45 +17884,6 @@
     ],
     "cooldown": 3,
     "max_uses": 2
-  },
-  {
-    "id": 1402,
-    "name": "Fairy Fire",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 2
-    },
-    "element": "Nature",
-    "type": "Attack",
-    "desc": "An average Nature attack that grants Ethereal for 1 turn",
-    "enchant_desc": "+2 Attack Power",
-    "additional": [
-      {
-        "type": "Ethereal"
-      }
-    ]
-  },
-  {
-    "id": 1403,
-    "name": "Sylvan Shield",
-    "ap": 10,
-    "accuracy": 90,
-    "accempt": false,
-    "enchant": {
-      "accuracy": 10
-    },
-    "element": "Misc",
-    "type": "Barbed",
-    "target": "Self",
-    "desc": "Applies 2 stacks of Barbed to the user and Paralyzes foe for 1 turn",
-    "enchant_desc": "+10% Accuracy",
-    "turns": 2,
-    "additional": [
-      {
-        "type": "Paralyze"
-      }
-    ]
   },
   {
     "id": 1405,
@@ -17941,20 +17941,6 @@
     ]
   },
   {
-    "id": 1411,
-    "name": "Dark Aqua Assault",
-    "ap": 5,
-    "accempt": false,
-    "enchant": {
-      "ap": 1
-    },
-    "element": "Water",
-    "type": "Attack",
-    "desc": "A simple Water attack that hits 3 times",
-    "enchant_desc": "+1 Attack Power",
-    "times": 3
-  },
-  {
     "id": 1412,
     "name": "Biting Time",
     "ap": 10,
@@ -17977,6 +17963,20 @@
     ]
   },
   {
+    "id": 1411,
+    "name": "Dark Aqua Assault",
+    "ap": 5,
+    "accempt": false,
+    "enchant": {
+      "ap": 1
+    },
+    "element": "Water",
+    "type": "Attack",
+    "desc": "A simple Water attack that hits 3 times",
+    "enchant_desc": "+1 Attack Power",
+    "times": 3
+  },
+  {
     "id": 1413,
     "name": "Dark Chomp",
     "ap": 27,
@@ -17994,6 +17994,25 @@
       },
       {
         "type": "Antiheal"
+      }
+    ]
+  },
+  {
+    "id": 1416,
+    "name": "Monsoon",
+    "ap": 27,
+    "accempt": false,
+    "enchant": {
+      "ap": 4
+    },
+    "element": "Wind",
+    "type": "Attack",
+    "desc": "A massively powerful Wind attack that inflicts 6 AP Disease for 2 turns",
+    "enchant_desc": "+4 Attack Power",
+    "additional": [
+      {
+        "type": "Disease",
+        "ap": 6
       }
     ]
   },
@@ -18047,21 +18066,29 @@
     "cooldown": -1
   },
   {
-    "id": 1416,
-    "name": "Monsoon",
-    "ap": 27,
+    "id": 1417,
+    "name": "Petal Slash",
+    "ap": 10,
     "accempt": false,
     "enchant": {
-      "ap": 4
+      "ap": 1
     },
-    "element": "Wind",
+    "element": "Nature",
     "type": "Attack",
-    "desc": "A massively powerful Wind attack that inflicts 6 AP Disease for 2 turns",
-    "enchant_desc": "+4 Attack Power",
+    "desc": "An average Nature attack that attempts to hit 2 additional 6 AP Nature attacks, both with a 50% chance",
+    "enchant_desc": "+1 Attack Power",
     "additional": [
       {
-        "type": "Disease",
-        "ap": 6
+        "type": "Attack",
+        "element": "Nature",
+        "ap": 2,
+        "accuracy": 50
+      },
+      {
+        "type": "Attack",
+        "element": "Nature",
+        "ap": 6,
+        "accuracy": 50
       }
     ]
   },
@@ -18088,33 +18115,6 @@
       }
     ],
     "cooldown": -1
-  },
-  {
-    "id": 1417,
-    "name": "Petal Slash",
-    "ap": 10,
-    "accempt": false,
-    "enchant": {
-      "ap": 1
-    },
-    "element": "Nature",
-    "type": "Attack",
-    "desc": "An average Nature attack that attempts to hit 2 additional 6 AP Nature attacks, both with a 50% chance",
-    "enchant_desc": "+1 Attack Power",
-    "additional": [
-      {
-        "type": "Attack",
-        "element": "Nature",
-        "ap": 2,
-        "accuracy": 50
-      },
-      {
-        "type": "Attack",
-        "element": "Nature",
-        "ap": 6,
-        "accuracy": 50
-      }
-    ]
   },
   {
     "id": 1419,
@@ -18171,6 +18171,24 @@
     "cooldown": -1
   },
   {
+    "id": 1421,
+    "name": "Banana Throw",
+    "ap": 15,
+    "accempt": false,
+    "enchant": {
+      "ap": 3
+    },
+    "element": "Physical",
+    "type": "Attack",
+    "desc": "A powerful Physical attack that Paralyzes foe for 1 turn",
+    "enchant_desc": "+3 Attack Power",
+    "additional": [
+      {
+        "type": "Paralyze"
+      }
+    ]
+  },
+  {
     "id": 1420,
     "name": "Light Paw",
     "ap": 5,
@@ -18192,24 +18210,6 @@
       {
         "type": "Attack",
         "element": "Physical"
-      }
-    ]
-  },
-  {
-    "id": 1421,
-    "name": "Banana Throw",
-    "ap": 15,
-    "accempt": false,
-    "enchant": {
-      "ap": 3
-    },
-    "element": "Physical",
-    "type": "Attack",
-    "desc": "A powerful Physical attack that Paralyzes foe for 1 turn",
-    "enchant_desc": "+3 Attack Power",
-    "additional": [
-      {
-        "type": "Paralyze"
       }
     ]
   },

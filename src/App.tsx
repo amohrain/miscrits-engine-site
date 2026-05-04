@@ -7,7 +7,7 @@ import Privacy from "./pages/Privacy";
 import Support from "./pages/Support";
 import Terms from "./pages/Terms";
 import Testers from "./pages/Testers";
-import Walkthrough from "./pages/Walkthrough";
+import Walkthrough from "./pages/Guide";
 
 export default function App() {
   return (
